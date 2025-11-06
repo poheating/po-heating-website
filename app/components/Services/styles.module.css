@@ -1,0 +1,151 @@
+.page {
+    background-color: white;
+    padding-top: 130px;
+    padding-bottom: 160px;
+}
+
+.content {
+    max-width: 1300px;
+    padding: 15px;
+    margin-inline: auto;
+}
+
+.sectionHeading h2 {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #ff3300;
+    text-transform: uppercase;
+}
+
+.sectionHeading h3 {
+    font-size: 2.7em;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: rgb(48, 48, 48);
+}
+
+.services h4 {
+    font-size: 1.55em;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    color: #6e6e6e;
+}
+
+.title {
+    font-size: 2.7em;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: rgb(48, 48, 48);
+}
+
+.title:hover {
+    color: rgb(87, 87, 87);
+}
+
+.par {
+    font-size: 1.25em;
+    line-height: 1.6;
+    letter-spacing: -0.3px;
+    color: rgb(80, 80, 80);
+    margin-bottom: 27px;
+}
+
+.subheading {
+    margin-top: 27px;
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 1.6;
+    letter-spacing: -0.3px;
+    color: rgb(80, 80, 80);
+    margin-bottom: 27px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+
+.service img {
+    max-width: 450px;
+    max-height: 450px;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 60px;
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 100px;
+    border-radius: 28px;
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        padding-bottom: 100px;
+    }
+    .sectionHeading h2 {
+        font-size: 1.04em;
+    }
+
+    .sectionHeading h3 {
+        font-size: 2.25em;
+    }
+
+    .content img {
+        max-height: 500px;
+    }
+
+    .bottom {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .services {
+        gap: 20px;
+    }
+
+    .service {
+        flex-direction: column;
+        padding: 18px;
+        gap: 20px;
+    }
+
+    .title {
+        font-size: 2.25em;
+    }
+
+    .service h4 {
+        font-size: 1.4em;
+    }
+
+    .par {
+        font-size: 1.14em;
+        line-height: 1.52;
+    }
+
+    .subheading {
+        line-height: 1.52;
+        font-size: 1.14em;
+    }
+}

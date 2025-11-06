@@ -1,0 +1,41 @@
+'use client'
+import Image from 'next/image';
+import styles from './styles.module.css'
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+
+
+const BolierServicesHero = () => {
+    return (
+        <div className={styles.page}>
+            <div className={styles.content}>
+                <div className={styles.pageHeading}>
+                    <h1>&mdash; &nbsp; boiler services</h1>
+                    <h2>Reliable <motion.span
+                        initial={{ color: '#303030' }}
+                        whileInView={{ color: '#ff6600' }}
+                        transition={{ duration: 0.6, type: 'spring', delay: 0.2 }}
+                        viewport={{ once: true }}>Boiler Repairs & Installations</motion.span> in Weston-super-Mare </h2>
+                </div>
+                <Image priority src={'/images/boiler-hero.jpg'} width={1300} height={1300} alt='bolier repairs and installations in Weston-super-Mare.' />
+                {/* <motion.div className={styles.heroPoints}
+                    variants={containerVariants}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.5 }}>
+                    {
+                        heroPoints.map((point, i) => (
+                            <motion.div className={styles.point} key={i} variants={itemVariants}>
+                                <div className={styles.icon}>{point.icon}</div>
+                                <h3>{point.title}</h3>
+                                <p>{point.desc}</p>
+                            </motion.div>
+                        ))
+                    }
+                </motion.div> */}
+            </div>
+        </div>
+    );
+}
+
+export default BolierServicesHero;

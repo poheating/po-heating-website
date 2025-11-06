@@ -1,0 +1,133 @@
+.page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)), url('/images/hero-img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-attachment: fixed;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+}
+
+.content {
+    max-width: 1300px;
+    margin-inline: auto;
+    padding-inline: 15px;
+    display: block;
+}
+
+.headers {
+    max-width: 800px;
+    color: white;
+    padding-top: 250px;
+}
+
+.headers h1 {
+    font-size: 3.45em;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+}
+
+.headers p {
+    margin-top: 20px;
+    font-size: 1.35em;
+    font-weight: 500;
+    color: rgb(214, 214, 214);
+}
+
+.cta {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.cta a {
+    padding: 10px 42px;
+    border-radius: 8px;
+    transition: 0.06s ease-in-out;
+    font-size: 1.25em;
+    box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.12);
+    transition: 0.12s ease-in-out;
+}
+
+.cta1 {
+    background-color: #ff6d00;
+    color: rgb(68, 36, 9);
+    font-weight: 500;
+
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.301);
+}
+
+.phoneNumber {
+    font-size: 0.75em;
+    color: black;
+    font-weight: 400;
+}
+
+.btnTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.cta2 {
+    color: #ff6d00;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #ff6d00;
+    display: flex;
+    align-items: center;
+}
+
+.cta a:hover {
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.14);
+    transform: translateY(-2px);
+}
+
+.cta1:hover {
+    background-color: #ff7e1c;
+}
+
+/* 
+.cta2:hover {
+    background-color: #ff6d00;
+} */
+
+@media screen and (max-width: 768px) {
+    .headers {
+        padding-top: 200px;
+    }
+
+    .headers h1 {
+        font-size: 2.64em;
+    }
+
+    .headers p {
+        font-size: 1.18em;
+        margin-top: 30px;
+    }
+
+    .cta {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .cta a {
+        font-size: 1.12em;
+        text-align: center;
+    }
+
+    .cta1 {
+        justify-content: center;
+    }
+}
