@@ -23,7 +23,7 @@ const BoliersServicingToInstalation = () => {
         visible: {
             opacity: 1,
             transition: {
-                delayChildren: 0.1,
+                delayChildren: 0.02,
                 staggerChildren: 0.2,
             },
         },
@@ -41,7 +41,7 @@ const BoliersServicingToInstalation = () => {
                     variants={containerVariants}
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: true, amount: 0.5 }}>
+                    viewport={{ once: true, amount: 0.2 }}>
                     {
                         blocks.map((block, i) => (
                             <motion.div className={styles.point} key={i} variants={itemVariants}>

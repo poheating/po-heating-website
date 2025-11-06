@@ -70,7 +70,7 @@ const AboutPage = () => {
                         <h3>A Local Heating Engineer You Can Trust</h3>
                     </div>
                     <div className={styles.section2Content}>
-                        <Image src={'/images/about-section2.jpg'} width={800} height={800} alt='Local Heating Engineer in Weston-super-Mare.' />
+                        <Image sizes="(max-width: 768px) 100vw, 1920px" src={'/images/about-section2.jpg'} width={800} height={800} alt='Local Heating Engineer in Weston-super-Mare.' />
                         <div>
                             <p className={styles.sectionPar}>
                                 My name is Paweł Olszewski and I am the founder of P O Heating. I am a certified Gas Safe engineer in Weston-super-Mare.

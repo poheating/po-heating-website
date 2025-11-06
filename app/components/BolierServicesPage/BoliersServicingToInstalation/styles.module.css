@@ -159,6 +159,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .page {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
     .pageHeading h2 {
         font-size: 1.04em;
     }
@@ -205,6 +209,10 @@
 
     .sectionPar {
         font-size: 1.18em;
+    }
+
+    .bottomCertificate {
+        max-width: 100%;
     }
 
     .bottomCertificate p{

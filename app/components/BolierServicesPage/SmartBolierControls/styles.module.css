@@ -110,6 +110,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    .page {
+        padding-block: 70px;
+    }
     .pageHeading h2 {
         font-size: 1.04em;
     }
