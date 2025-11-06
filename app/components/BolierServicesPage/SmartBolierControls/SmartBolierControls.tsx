@@ -23,7 +23,7 @@ const SmartBolierControls = () => {
         visible: {
             opacity: 1,
             transition: {
-                delayChildren: 0.1,
+                delayChildren: 0.02,
                 staggerChildren: 0.2,
             },
         },
@@ -50,7 +50,7 @@ const SmartBolierControls = () => {
                                 <motion.div
                                     initial={{ opacity: 0 }}
                                     whileInView={{ opacity: 1 }}
-                                    transition={{ duration: 1.2, type: 'spring', delay: 0.2 }}
+                                    transition={{ duration: 1.2, type: 'spring', delay: 0.12 }}
                                     viewport={{ once: true }}
                                 >{point.title}</motion.div>
                             </div>

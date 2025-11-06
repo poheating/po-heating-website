@@ -23,7 +23,7 @@ const containerVariants = {
     visible: {
         opacity: 1,
         transition: {
-            delayChildren: 0.1,
+            delayChildren: 0.02,
             staggerChildren: 0.2,
         },
     },
@@ -49,7 +49,7 @@ const AboutPage = () => {
                         variants={containerVariants}
                         initial="hidden"
                         whileInView="visible"
-                        viewport={{ once: true, amount: 0.5 }}>
+                        viewport={{ once: true, amount: 0.12 }}>
                         {
                             heroPoints.map((point, i) => (
                                 <motion.div className={styles.point} key={i} variants={itemVariants}>
@@ -86,7 +86,7 @@ const AboutPage = () => {
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: 1.2, type: 'spring' }}
-                        viewport={{ once: true, amount: 0.3 }}
+                        viewport={{ once: true, amount: 0.12 }}
                     >
                         <h2>Ready to Book Your Heating Service in Weston-super-Mare?</h2>
                         <p>Keep your home safe, warm, and energy-efficient with trusted heating and gas services from P O Heating.
@@ -116,7 +116,7 @@ const AboutPage = () => {
                         variants={containerVariants}
                         initial="hidden"
                         whileInView="visible"
-                        viewport={{ once: true, amount: 0.5 }}>
+                        viewport={{ once: true, amount: 0.12 }}>
                         <motion.p variants={itemVariants}><span><Check /></span> Friendly, personal service from a qualified engineer</motion.p>
                         <motion.p variants={itemVariants}><span><Check /></span> Transparent pricing with no hidden extras</motion.p>
                         <motion.p variants={itemVariants}><span><Check /></span> Fast response across Weston-super-Mare and nearby towns</motion.p>
