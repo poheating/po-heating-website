@@ -76,11 +76,25 @@
     gap: 24px;
 }
 
+@media screen and (max-width: 1166px) {
+    .bottom {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .content img {
+        max-height: 500px;
+        margin-inline: auto;
+        width: 100%;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     .page {
         margin-top: 70px;
     }
+
     .page h2 {
         font-size: 1.04em;
     }
@@ -88,16 +102,6 @@
     .page h3 {
         font-size: 2.25em;
     }
-
-    .content img {
-        max-height: 500px;
-    }
-
-    .bottom {
-        flex-direction: column;
-        margin-top: 40px;
-    }
-
 
     .points li {
         font-size: 1.1em;

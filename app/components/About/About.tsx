@@ -12,7 +12,7 @@ const About = () => {
                 <h3>Gas Engineer in Weston-super-Mare</h3>
 
                 <div className={styles.bottom}>
-                    <Image src={'/images/main-about.jpg'} width={600} height={600} alt='po heating services' />
+                    <Image src={'/images/main-about.jpg'} width={600} height={600} alt='plumbing services across Weston-super-Mare and North Somerset' />
                     <div className={styles.par}>
                         <p>P O Heating, founded by Paweł Olszewski, provides reliable <span>heating and gas services across Weston-super-Mare and North Somerset.</span></p>
 

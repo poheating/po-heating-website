@@ -20,16 +20,16 @@ const links = [
         href: '/gas-boilder-services',
     },
     {
-        title: 'Radiators',
+        title: 'Radiators and Heating Upgrades',
         href: '/radiators',
+    },
+    {
+        title: 'Gas Appliance Installation',
+        href: '/heating-upgrades',
     },
     {
         title: 'Smart Controls',
         href: '/smart-controls',
-    },
-    {
-        title: 'Heating Ubgrades',
-        href: '/heating-ubgrades',
     },
 ]
 
