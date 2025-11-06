@@ -1,24 +1,22 @@
 'use client'
-import Image from 'next/image';
 import styles from './styles.module.css'
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { Award, CheckCircle, ShieldCheck, Wrench } from 'lucide-react';
 
 const SmartBolierControls = () => {
 
-    const itemVariants = {
-        hidden: { opacity: 0, scale: 0.92 },
-        visible: {
-            opacity: 1,
-            scale: 1,
-            transition: {
-                type: 'spring' as 'spring',
-                stiffness: 260,
-                damping: 20,
-            },
-        },
-    };
+    // const itemVariants = {
+    //     hidden: { opacity: 0, scale: 0.92 },
+    //     visible: {
+    //         opacity: 1,
+    //         scale: 1,
+    //         transition: {
+    //             type: 'spring' as 'spring',
+    //             stiffness: 260,
+    //             damping: 20,
+    //         },
+    //     },
+    // };
 
     const containerVariants = {
         hidden: { opacity: 0 },

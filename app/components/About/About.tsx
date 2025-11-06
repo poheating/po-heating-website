@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image';
 import styles from './styles.module.css'
-import { Check, CheckCircle } from 'lucide-react';
+import { CheckCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const About = () => {

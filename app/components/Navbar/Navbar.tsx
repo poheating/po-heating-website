@@ -4,7 +4,7 @@ import Link from 'next/link';
 import styles from './styles.module.css'
 import Image from 'next/image';
 import { PhoneCallIcon, ChevronDown, Menu, X } from 'lucide-react'
-import { motion, useScroll, useTransform, MotionValue, AnimatePresence } from 'framer-motion';
+import { motion, useScroll, AnimatePresence } from 'framer-motion';
 import { useEffect, useState, useRef } from 'react';
 import { usePathname } from 'next/navigation';
 

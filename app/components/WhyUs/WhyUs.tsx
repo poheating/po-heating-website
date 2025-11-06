@@ -1,5 +1,5 @@
 'use client'
-import { Award, CircleDollarSign, ClipboardCheck, FastForward, MessageSquare, Paperclip, PersonStanding, Shield } from 'lucide-react';
+import { Award, ClipboardCheck, MessageSquare, Shield } from 'lucide-react';
 import { motion } from 'framer-motion';
 import styles from './styles.module.css';
 import Link from 'next/link';

@@ -1,5 +1,4 @@
 'use client'
-import { FireExtinguisher, House, Phone, Smartphone, Thermometer } from 'lucide-react';
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 import styles from './styles.module.css';

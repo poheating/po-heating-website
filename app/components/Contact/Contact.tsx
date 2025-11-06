@@ -1,4 +1,4 @@
-import { Mail, Phone, PhoneCall } from 'lucide-react';
+import { Mail, PhoneCall } from 'lucide-react';
 import styles from './styles.module.css'
 
 const Contact = () => {

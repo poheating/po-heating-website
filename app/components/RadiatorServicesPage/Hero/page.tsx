@@ -2,7 +2,6 @@
 import Image from 'next/image';
 import styles from './styles.module.css'
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 
 
 const RadiatorServicesHero = () => {
