@@ -6,12 +6,12 @@
 
 .content {
     max-width: 1300px;
+    padding: 15px;
     margin-inline: auto;
 }
 
 .sectionHeading h2 {
     font-size: 1.1em;
-    padding-inline: 15px;
     font-weight: 600;
     color: #ff3300;
     text-transform: uppercase;
@@ -19,7 +19,6 @@
 
 .sectionHeading h3 {
     font-size: 2.7em;
-    padding-inline: 15px;
     line-height: 1.4;
     font-weight: 700;
     margin-top: 10px;
@@ -138,12 +137,12 @@
     }
 
     .services {
-        gap: 60px;
+        gap: 30px;
     }
 
     .service {
         padding: 18px;
-        border-radius: 0px;
+        border-radius: 16px;
     }
 
     .title {
