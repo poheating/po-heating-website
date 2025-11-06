@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/logo.svg",
+        url: "/images/poheating-metadata.jpg",
         width: 1200,
         height: 630,
         alt: "Gas & Heating Engineer in Weston-super-Mare",
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     title: "Gas & Heating Services in Weston-super-Mare | Local Expert",
     description:
       "Reliable gas and heating engineer offering boiler repairs, servicing, and installations in Weston-super-Mare.",
-    images: ["/images/logo.svg"],
+    images: ["/images/poheating-metadata.jpg"],
   },
   category: "Heating and Plumbing Services",
 };

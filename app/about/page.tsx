@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     type: "article",
     images: [
       {
-        url: "/images/logo.svg",
+        url: "/images/poheating-metadata.jpg",
         width: 1200,
         height: 630,
         alt: "P O Heating - About Page",
