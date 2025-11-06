@@ -6,12 +6,12 @@
 
 .content {
     max-width: 1300px;
-    padding: 15px;
     margin-inline: auto;
 }
 
 .sectionHeading h2 {
     font-size: 1.1em;
+    padding-inline: 15px;
     font-weight: 600;
     color: #ff3300;
     text-transform: uppercase;
@@ -19,6 +19,7 @@
 
 .sectionHeading h3 {
     font-size: 2.7em;
+    padding-inline: 15px;
     line-height: 1.4;
     font-weight: 700;
     margin-top: 10px;
@@ -100,6 +101,19 @@
     border-radius: 28px;
 }
 
+
+@media screen and (max-width: 1166px) {
+    .service {
+        flex-direction: column;
+        padding: 38px;
+        gap: 20px;
+    }
+
+    .service img {
+        margin-inline: auto;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .page {
         padding-bottom: 100px;
@@ -124,11 +138,12 @@
     }
 
     .services {
-        gap: 20px;
+        gap: 60px;
     }
 
     .service {
         padding: 18px;
+        border-radius: 0px;
     }
 
     .title {
@@ -147,17 +162,5 @@
     .subheading {
         line-height: 1.52;
         font-size: 1.14em;
-    }
-}
-
-@media screen and (max-width: 1166px) {
-    .service {
-        flex-direction: column;
-        padding: 38px;
-        gap: 20px;
-    }
-
-    .service img {
-        margin-inline: auto;
     }
 }

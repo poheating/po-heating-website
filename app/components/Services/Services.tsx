@@ -38,7 +38,7 @@ const Services = () => {
                                 variants={cardVariants}
                                 initial="hidden"
                                 whileInView="visible"
-                                viewport={{ once: true, amount: 0.2 }}
+                                viewport={{ once: true, amount: 0.3 }}
                             >
                                 <Image src={service.img} width={450} height={450} alt={`P O Heating - ${service.topic}`} />
                                 <div className={styles.right}>
