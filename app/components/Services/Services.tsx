@@ -77,20 +77,6 @@ const services = [
         Regular servicing prevents costly breakdowns and ensures consistent heat throughout your home.`
     },
     {
-        headerColor: '#6e8299ff',
-        backgroundColor: '#c2dcfaff',
-        img: '/images/services/smart-controls.webp',
-        link: '/smart-controls',
-        topic: 'Heating upgrades & smart controls',
-        name: 'Upgrade Your Heating System',
-        subheading: 'Enhance comfort and energy efficiency with modern thermostats, filters, and stylish radiators.',
-        par: `
-        Upgrade your heating system with modern, efficient solutions.
-        We fit smart thermostats, magnetic filters, and designer radiators that make your home easier to manage and more sustainable.
-        Control your heating from your smartphone, cut energy costs, and enjoy quieter, cleaner performance every day.
-        `
-    },
-    {
         headerColor: '#a5755cff',
         backgroundColor: '#ffc793ff',
         img: '/images/services/radiator.webp',
@@ -116,5 +102,19 @@ const services = [
         We provide certified gas-safe installation, ensuring your appliance is connected, tested, and compliant with all safety standards.
         Enjoy peace of mind knowing your kitchen is safe and ready to use.
         `
-    }
+    },
+    {
+        headerColor: '#6e8299ff',
+        backgroundColor: '#c2dcfaff',
+        img: '/images/services/smart-controls.webp',
+        link: '/smart-controls',
+        topic: 'Heating upgrades & smart controls',
+        name: 'Upgrade Your Heating System',
+        subheading: 'Enhance comfort and energy efficiency with modern thermostats, filters, and stylish radiators.',
+        par: `
+        Upgrade your heating system with modern, efficient solutions.
+        We fit smart thermostats, magnetic filters, and designer radiators that make your home easier to manage and more sustainable.
+        Control your heating from your smartphone, cut energy costs, and enjoy quieter, cleaner performance every day.
+        `
+    },
 ]

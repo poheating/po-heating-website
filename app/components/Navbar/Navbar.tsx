@@ -51,7 +51,7 @@ const Navbar = () => {
             link: '/boiler-services'
         },
         {
-            name: 'Radiators & Heating Upgrades',
+            name: 'Radiator services',
             link: '/radiators'
         },
         {
@@ -59,7 +59,7 @@ const Navbar = () => {
             link: '/gas-appliance-installation'
         },
         {
-            name: 'Smart Controls',
+            name: 'Heating Upgrades & Smart Controls',
             link: '/smart-controls'
         }
     ]

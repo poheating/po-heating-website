@@ -36,7 +36,7 @@ const AboutPage = () => {
                 {/* section 1 */}
                 <div className={styles.section1Content}>
                     <div className={styles.pageHeading}>
-                        <h1>&mdash; &nbsp; about me</h1>
+                        <h1>&mdash; &nbsp; about us</h1>
                         <h2>Trusted <motion.span
                             initial={{ color: '#303030' }}
                             whileInView={{ color: '#ff6600' }}
@@ -66,7 +66,7 @@ const AboutPage = () => {
                 {/* section 2 */}
                 <div className={styles.section2}>
                     <div className={styles.sectionHeading}>
-                        <h2>&mdash; &nbsp; my story</h2>
+                        <h2>&mdash; &nbsp; our story</h2>
                         <h3>A Local Heating Engineer You Can Trust</h3>
                     </div>
                     <div className={styles.section2Content}>
