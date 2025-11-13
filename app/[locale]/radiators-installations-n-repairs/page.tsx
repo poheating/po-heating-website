@@ -1,22 +1,21 @@
 import { Metadata } from 'next';
-import CallMeWidget from '../components/CallMeWidget/callme-widget';
-import GasAppliancesAbout from '../components/GasAppliancesPage/GasAppliancesAbout/GasAppliancesAbout';
-import GasAppliancesBoliers from '../components/GasAppliancesPage/GasAppliancesBoliers/GasAppliancesBoliers';
-import GasAppliancesSafety from '../components/GasAppliancesPage/GasAppliancesSafety/GasAppliancesSafety';
-import GasAppliancesSteps from '../components/GasAppliancesPage/GasAppliancesSteps/GasAppliancesSteps';
-import GasAppliancesHero from '../components/GasAppliancesPage/Hero/page';
+import RadiatorsHero from '../../components/RadiatorsPage/Hero/page';
+import RadiatorsAbout from '../../components/RadiatorsPage/RadiatorsAbout/RadiatorsAbout';
+import RadiatorsOurProcess from '../../components/RadiatorsPage/RadiatorsOurProcess/RadiatorsOurProcess';
+import RadiatorsProblems from '../../components/RadiatorsPage/RadiatorsProblems/RadiatorsProblems';
 import styles from './styles.module.css'
+import CallMeWidget from '../../components/CallMeWidget/callme-widget';
 
 export const metadata: Metadata = {
   title: "Gas Appliances Installations in Weston-super-Mare, Bristol & Bridgwater | P O Heating",
   description:
-    "Professional gas cooker, hob and boiler installations in Weston-super-Mare, Bristol, and Bridgwater. Safe, compliant, and efficient gas fitting by P O Heating experts.",
+    "Professional gas cooker and hob installations in Weston-super-Mare, Bristol, and Bridgwater. Safe, compliant, and efficient gas fitting by P O Heating experts.",
   keywords: [
     "gas appliances installations Weston-super-Mare",
-    "gas boiler installation Weston-super-Mare",
+    "gas cooker installation Weston-super-Mare",
     "gas hob installation Weston-super-Mare",
     "gas cooker installation Bristol",
-    "gas boiler installation Bristol",
+    "gas hob installation Bristol",
     "gas cooker installation Bridgwater",
     "gas hob installation Bridgwater",
     "Gas Safe engineer Weston-super-Mare",
@@ -25,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Gas Appliances Installations in Weston-super-Mare, Bristol & Bridgwater | P O Heating",
     description:
-      "Certified gas cooker, hob and boiler installations across Weston-super-Mare, Bristol, Bridgwater, and North Somerset. Trusted local heating engineers ensuring safety and efficiency.",
+      "Certified gas cooker and hob installations across Weston-super-Mare, Bristol, Bridgwater, and North Somerset. Trusted local heating engineers ensuring safety and efficiency.",
     siteName: "P O Heating",
     locale: "en_GB",
     type: "article",
@@ -47,18 +46,16 @@ export const metadata: Metadata = {
   },
 };
 
-
-const GasAppliancesInstallations = () => {
+const radiatorNHeatingUpgrades = () => {
     return ( 
         <div className={styles.page}>
-            <GasAppliancesHero />
-            <GasAppliancesAbout />
-            <GasAppliancesBoliers />
-            <GasAppliancesSafety />
-            <GasAppliancesSteps />
+            <RadiatorsHero />
+            <RadiatorsAbout />
+            <RadiatorsProblems />
+            <RadiatorsOurProcess />
             <CallMeWidget />
         </div>
      );
 }
  
-export default GasAppliancesInstallations;
+export default radiatorNHeatingUpgrades;

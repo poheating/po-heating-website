@@ -1,10 +1,10 @@
 import { Metadata } from 'next';
-import BolierProblems from '../components/BolierServicesPage/BolierProblems/BolierProblems';
-import BoliersServicingToInstalation from '../components/BolierServicesPage/BoliersServicingToInstalation/BoliersServicingToInstalation';
-import BolierServicesHero from '../components/BolierServicesPage/Hero/page';
-import SmartBolierControls from '../components/BolierServicesPage/SmartBolierControls/SmartBolierControls';
+import BolierProblems from '../../components/BolierServicesPage/BolierProblems/BolierProblems';
+import BoliersServicingToInstalation from '../../components/BolierServicesPage/BoliersServicingToInstalation/BoliersServicingToInstalation';
+import BolierServicesHero from '../../components/BolierServicesPage/Hero/page';
+import SmartBolierControls from '../../components/BolierServicesPage/SmartBolierControls/SmartBolierControls';
 import styles from './styles.module.css'
-import CallMeWidget from '../components/CallMeWidget/callme-widget';
+import CallMeWidget from '../../components/CallMeWidget/callme-widget';
 
 export const metadata: Metadata = {
   title: "Boiler Service & Repair in Weston-super-Mare, Bristol & Bridgwater | PO Heating",

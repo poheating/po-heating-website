@@ -1,8 +1,8 @@
 import { Metadata } from "next";
-import HeatingUpgradesAbout from "../components/HeatingUpgradesSmartControls/HeatingUpgradesAbout/HeatingUpgradesAbout";
-import HeatingUpgradesBenefits from "../components/HeatingUpgradesSmartControls/HeatingUpgradesBenefits/HeatingUpgradesBenefits";
-import HeatingUpgradesPoints from "../components/HeatingUpgradesSmartControls/HeatingUpgradesPoints/HeatingUpgradesPoints";
-import HeatingUpgradesHero from "../components/HeatingUpgradesSmartControls/Hero/page";
+import HeatingUpgradesAbout from "../../components/HeatingUpgradesSmartControls/HeatingUpgradesAbout/HeatingUpgradesAbout";
+import HeatingUpgradesBenefits from "../../components/HeatingUpgradesSmartControls/HeatingUpgradesBenefits/HeatingUpgradesBenefits";
+import HeatingUpgradesPoints from "../../components/HeatingUpgradesSmartControls/HeatingUpgradesPoints/HeatingUpgradesPoints";
+import HeatingUpgradesHero from "../../components/HeatingUpgradesSmartControls/Hero/page";
 
 export const metadata: Metadata = {
   title: "Heating Upgrades & Smart Controls in Weston-super-Mare, Bristol & Bridgwater | P O Heating",

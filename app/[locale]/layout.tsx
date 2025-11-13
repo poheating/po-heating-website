@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import FooterSection from "@/components/footer-one";
 import Head from "next/head";
+import { NextIntlClientProvider } from "next-intl";
+import { ReactNode } from "react";
+import { notFound } from "next/navigation";
+import { DEFAULT_LOCALE } from "@/i18n";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -77,22 +81,33 @@ export const metadata: Metadata = {
 };
 
 
-export default function RootLayout({
+export default async function LocaleLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+  params
+}: {
+  children: ReactNode;
+  params: { locale: string };
+}) {
+  const { locale } = await params;
+
+  let messages;
+  try {
+    messages = (await import(`../../locales/${locale}.json`)).default;
+  } catch {
+  }
   return (
-    <html lang="en">
+    <html lang={locale}>
       <Head>
         <link rel="preload" as="image" href="/images/poheating-hero.webp" />
       </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased`}
       >
-        <Navbar />
-        {children}
-        <FooterSection />
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <Navbar />
+          {children}
+          <FooterSection />
+        </NextIntlClientProvider>
       </body>
     </html>
   );
