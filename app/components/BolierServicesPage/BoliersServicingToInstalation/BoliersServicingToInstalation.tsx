@@ -2,8 +2,10 @@
 import styles from './styles.module.css'
 import { motion } from 'framer-motion';
 import { Award, CheckCircle, ShieldCheck, Wrench } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 const BoliersServicingToInstalation = () => {
+    const t = useTranslations('BoilerServices.ServicingInstallation');
 
     const itemVariants = {
         hidden: { opacity: 0, scale: 0.92 },
@@ -29,13 +31,55 @@ const BoliersServicingToInstalation = () => {
         },
     };
 
+    const blocks = [
+        {
+            color1: '#d5e7ff',
+            color2: '#3661d6',
+            icon: <Wrench size={34} />,
+            title: t('blocks.regularServicing.title'),
+            points: [
+                {
+                    title: t('blocks.regularServicing.points.safety.title'),
+                    desc: t('blocks.regularServicing.points.safety.desc')
+                },
+                {
+                    title: t('blocks.regularServicing.points.insurance.title'),
+                    desc: t('blocks.regularServicing.points.insurance.desc')
+                },
+                {
+                    title: t('blocks.regularServicing.points.efficiency.title'),
+                    desc: t('blocks.regularServicing.points.efficiency.desc')
+                }
+            ]
+        },
+        {
+            color1: '#ffe6d5ff',
+            color2: '#ff6600',
+            icon: <ShieldCheck size={34} />,
+            title: t('blocks.newInstallations.title'),
+            points: [
+                {
+                    title: t('blocks.newInstallations.points.advice.title'),
+                    desc: t('blocks.newInstallations.points.advice.desc')
+                },
+                {
+                    title: t('blocks.newInstallations.points.installation.title'),
+                    desc: t('blocks.newInstallations.points.installation.desc')
+                },
+                {
+                    title: t('blocks.newInstallations.points.certified.title'),
+                    desc: t('blocks.newInstallations.points.certified.desc')
+                }
+            ]
+        },
+    ];
 
     return (
         <div className={styles.page}>
             <div className={styles.content}>
                 <div className={styles.pageHeading}>
-                    <h2>&mdash; &nbsp; Servicing & Installation</h2>
-                    <h3>From Annual Servicing to Full Installations — We Handle It All</h3>
+                    <h2>&mdash; &nbsp; {t('heading')}</h2>
+                    <h3>{t('subheading')}</h3>
                 </div>
                 <motion.div className={styles.points}
                     variants={containerVariants}
@@ -46,7 +90,7 @@ const BoliersServicingToInstalation = () => {
                         blocks.map((block, i) => (
                             <motion.div className={styles.point} key={i} variants={itemVariants}>
                                 <div className={styles.pointsTop}>
-                                    <div style={{color: block.color2, backgroundColor: block.color1}} className={styles.icon}>{block.icon}</div>
+                                    <div style={{ color: block.color2, backgroundColor: block.color1 }} className={styles.icon}>{block.icon}</div>
                                     <h4>{block.title}</h4>
                                 </div>
                                 <div className={styles.blockPoints}>
@@ -66,7 +110,7 @@ const BoliersServicingToInstalation = () => {
 
                 <div className={styles.bottomCertificate}>
                     <span><Award /></span>
-                    <p>Gas Safe Registered Engineer</p>
+                    <p>{t('certificate')}</p>
                 </div>
             </div>
         </div>
@@ -74,46 +118,3 @@ const BoliersServicingToInstalation = () => {
 }
 
 export default BoliersServicingToInstalation;
-
-const blocks = [
-    {
-        color1: '#d5e7ff',
-        color2: '#3661d6',
-        icon: <Wrench size={34} />,
-        title: 'Regular Boiler Servicing',
-        points: [
-            {
-                title: 'Safety First',
-                desc: 'Comprehensive checks to prevent carbon monoxide leaks and ensure safe operation'
-            },
-            {
-                title: 'Efficiency Boost',
-                desc: 'Annual servicing keeps your boiler running efficiently, reducing energy bills'
-            },
-            {
-                title: 'Warranty Protection',
-                desc: 'Many manufacturers require annual servicing to maintain warranty coverage'
-            }
-        ]
-    },
-    {
-        color1: '#ffe6d5ff',
-        color2: '#ff6600',
-        icon: <ShieldCheck size={34} />,
-        title: 'New Boiler Installations',
-        points: [
-            {
-                title: 'Expert Advice',
-                desc: 'Free consultation to help you choose the right boiler for your home and budget'
-            },
-            {
-                title: 'Professional Installation',
-                desc: 'Full installation service including removal of old boiler and system upgrades'
-            },
-            {
-                title: 'Gas Safe Certified',
-                desc: 'All work completed to the highest safety standards with certification included'
-            }
-        ]
-    },
-];

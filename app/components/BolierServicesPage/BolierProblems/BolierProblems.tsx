@@ -2,8 +2,10 @@
 import styles from './styles.module.css'
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 const BolierProblems = () => {
+    const t = useTranslations('BoilerServices.BoilerProblems');
 
     const itemVariants = {
         hidden: { opacity: 0, scale: 0.92 },
@@ -29,13 +31,30 @@ const BolierProblems = () => {
         },
     };
 
+    const points = [
+        {
+            icon: '🔧',
+            title: t('points.lowPressure.title'),
+            desc: t('points.lowPressure.desc')
+        },
+        {
+            icon: '🔊',
+            title: t('points.strangeNoises.title'),
+            desc: t('points.strangeNoises.desc')
+        },
+        {
+            icon: '💧',
+            title: t('points.leaks.title'),
+            desc: t('points.leaks.desc')
+        }
+    ];
 
     return (
         <div className={styles.page}>
             <div className={styles.content}>
                 <div className={styles.pageHeading}>
-                    <h2>&mdash; &nbsp; Fixed Fast</h2>
-                    <h3>Common Boiler Problems</h3>
+                    <h2>&mdash; &nbsp; {t('heading')}</h2>
+                    <h3>{t('subheading')}</h3>
                 </div>
                 <motion.div className={styles.points}
                     variants={containerVariants}
@@ -53,29 +72,11 @@ const BolierProblems = () => {
                     }
                 </motion.div>
 
-                <p className={styles.sectionPar}>We diagnose and repair all boiler types — quickly and professionally</p>
-                <Link className={styles.cta} href={'/#contact'}>Request Emergency Repair</Link>
+                <p className={styles.sectionPar}>{t('sectionPar')}</p>
+                <Link className={styles.cta} href={'/#contact'}>{t('cta')}</Link>
             </div>
         </div>
     );
 }
 
 export default BolierProblems;
-
-const points = [
-    {
-        icon: '🔧',
-        title: 'Low pressure or no heat',
-        desc: 'System not heating properly or pressure gauge showing red'
-    },
-    {
-        icon: '🔊',
-        title: 'Strange noises',
-        desc: 'Banging, whistling, or gurgling sounds from your boiler'
-    },
-    {
-        icon: '💧',
-        title: 'Leaks or Drips',
-        desc: 'Water leaking from pipes, valves, or the boiler unit'
-    }
-];

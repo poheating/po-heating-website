@@ -1,23 +1,25 @@
 import { Mail, PhoneCall } from 'lucide-react';
 import styles from './styles.module.css'
+import { useTranslations } from 'next-intl';
 
 const Contact = () => {
+    const t = useTranslations('Contact');
+
     return (
         <div className={styles.page} id='contact'>
             <div className={styles.content}>
                 <div className={styles.sectionHeading}>
-                    <h2>&mdash; &nbsp; Contact</h2>
-                    <h3>Get in Touch with Your Local Heating Expert</h3>
+                    <h2>&mdash; &nbsp; {t('sectionHeading.title')}</h2>
+                    <h3>{t('sectionHeading.subtitle')}</h3>
                 </div>
                 <div className={styles.bottom}>
-                    <p className={styles.par}>Need a boiler service, radiator repair, or gas cooker installation? PO Heating provides professional heating solutions for homeowners in Weston-super-Mare and surrounding areas.
-                        Reach out today to book a service, request a quote, or get expert advice from a certified Gas Safe engineer. We’re committed to keeping your home safe, warm, and energy-efficient.</p>
+                    <p className={styles.par}>{t('description')}</p>
                     <div className={styles.right}>
-                        <h4>Contact Information</h4>
-                        <p><span>Paweł Olszewski</span></p>
+                        <h4>{t('contactInfo.title')}</h4>
+                        <p><span>{t('contactInfo.name')}</span></p>
                         <div className={styles.contactWays}>
-                            <p><PhoneCall size={22}/><a href="tel:+447764380450">+44 7764 380450</a></p>
-                            <p><Mail size={22}/><a href="mailto:poheating@outlook.com">poheating@outlook.com</a></p>
+                            <p><PhoneCall size={22}/><a href="tel:+447764380450">{t('contactInfo.phone')}</a></p>
+                            <p><Mail size={22}/><a href="mailto:poheating@outlook.com">{t('contactInfo.email')}</a></p>
                         </div>
                     </div>
                 </div>

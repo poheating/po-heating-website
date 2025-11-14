@@ -7,6 +7,7 @@ import { PhoneCallIcon, ChevronDown, Menu, X } from 'lucide-react'
 import { motion, useScroll, AnimatePresence } from 'framer-motion';
 import { useEffect, useState, useRef } from 'react';
 import { usePathname } from 'next/navigation';
+import { useTranslations } from 'next-intl';
 
 const Navbar = () => {
     const { scrollY } = useScroll();
@@ -18,6 +19,7 @@ const Navbar = () => {
 
     const pathname = usePathname()
     const isHomePage = pathname === "/"
+    const t = useTranslations('Navbar');
 
     useEffect(() => {
         if (isHomePage) {
@@ -47,30 +49,30 @@ const Navbar = () => {
 
     const services = [
         {
-            name: 'Gas Boiler Services',
+            name: t('services.boilerServices'),
             link: '/boiler-services'
         },
         {
-            name: 'Radiator Installations & Repairs',
+            name: t('services.radiatorInstallations'),
             link: '/radiators-installations-n-repairs'
         },
         {
-            name: 'Gas Appliances Installations',
+            name: t('services.gasAppliances'),
             link: '/gas-appliances-installations'
         },
         {
-            name: 'Heating Upgrades & Smart Controls',
+            name: t('services.heatingUpgrades'),
             link: '/heating-upgrades-n-smart-controls'
         }
     ]
 
     const links = [
         {
-            name: 'Contact',
+            name: t('links.contact'),
             link: '/#contact'
         },
         {
-            name: 'About',
+            name: t('links.about'),
             link: '/about'
         }
     ]
@@ -90,7 +92,7 @@ const Navbar = () => {
         >
             <div className={styles.navContent}>
                 <div className={styles.logo}>
-                    <Link href={'/'}><Image src={'/images/logo.svg'} width={45} height={45} alt='Gas & Heating services in Weston-super-Mare' /></Link>
+                    <Link href={'/'}><Image src={'/images/logo.svg'} width={45} height={45} alt={t('logoAlt')} /></Link>
                 </div>
 
                 {/* Desktop Links */}
@@ -119,7 +121,7 @@ const Navbar = () => {
                             }}
                             onClick={() => setIsServicesOpen(!isServicesOpen)}
                         >
-                            Services
+                            {t('services.title')}
                             <ChevronDown 
                                 size={18} 
                                 style={{
@@ -155,7 +157,7 @@ const Navbar = () => {
 
                     <Link href={'/#contact'} className={styles.cta1}>
                         <div className={styles.btnTop}>
-                            Call me <span><PhoneCallIcon size={22} /></span>
+                            {t('callMe')} <span><PhoneCallIcon size={22} /></span>
                         </div>
                     </Link>
                 </div>
@@ -207,7 +209,7 @@ const Navbar = () => {
                                     className={styles.mobileDropdownToggle}
                                     onClick={() => setIsServicesOpen(!isServicesOpen)}
                                 >
-                                    Services
+                                    {t('services.title')}
                                     <ChevronDown 
                                         size={18} 
                                         style={{
@@ -247,7 +249,7 @@ const Navbar = () => {
                                 onClick={handleLinkClick}
                             >
                                 <PhoneCallIcon size={22} />
-                                Call me
+                                {t('callMe')}
                             </Link>
                         </motion.div>
                     </motion.div>

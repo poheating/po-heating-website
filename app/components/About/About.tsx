@@ -3,22 +3,25 @@ import Image from 'next/image';
 import styles from './styles.module.css'
 import { CheckCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 const About = () => {
+    const t = useTranslations('About');
+
     return (
         <div className={styles.page}>
             <div className={styles.content}>
-                <h2>&mdash; &nbsp; About po heating</h2>
-                <h3>Reliable Heating Solutions for Every Home</h3>
+                <h2>&mdash; &nbsp; {t('aboutTitle')}</h2>
+                <h3>{t('heading')}</h3>
 
                 <div className={styles.bottom}>
-                    <Image src={'/images/main-about.webp'} width={600} height={600} alt='Plumbing Services across Weston-super-Mare and North Somerset' />
+                    <Image src={'/images/main-about.webp'} width={600} height={600} alt={t('imageAlt')} />
                     <div className={styles.par}>
-                        <p>PO Heating provides <span>reliable gas and heating services throughout Weston-super-Mare, Bristol, Bridgwater and North Somerset.</span></p>
+                        <p>{t('paragraph1.part1')}<span>{t('paragraph1.span')}</span>{t('paragraph1.part2')}</p>
 
-                        <p>With years of experience and full Gas Safe certification, we specialise in <span>boiler servicing, repairs, radiator installations, and smart heating controls</span> — always with a focus on safety, efficiency, and customer satisfaction.</p>
+                        <p>{t('paragraph2.part1')}<span>{t('paragraph2.span')}</span>{t('paragraph2.part2')}</p>
 
-                        <p>From annual boiler maintenance to system upgrades and emergency repairs, PO Heating delivers professional service and honest advice you can rely on. We keep homes in Weston-super-Mare warm, safe, and energy-efficient all year round.</p>
+                        <p>{t('paragraph3')}</p>
                         <ul className={styles.points}>
                             <motion.li
                                 initial={{ opacity: 0, y: 20 }}
@@ -26,7 +29,7 @@ const About = () => {
                                 transition={{ delay: 0.1 }}
                                 viewport={{ once: true }}
                             >
-                                <span><CheckCircle size={24} /></span>Qualified Gas Safe Engineer
+                                <span><CheckCircle size={24} /></span>{t('listItem1')}
                             </motion.li>
                             <motion.li
                                 initial={{ opacity: 0, y: 20 }}
@@ -34,7 +37,7 @@ const About = () => {
                                 transition={{ delay: 0.2 }}
                                 viewport={{ once: true }}
                             >
-                                <span><CheckCircle size={24} /></span>Comprehensive Heating Services
+                                <span><CheckCircle size={24} /></span>{t('listItem2')}
                             </motion.li>
                             <motion.li
                                 initial={{ opacity: 0, y: 20 }}
@@ -42,7 +45,7 @@ const About = () => {
                                 transition={{ delay: 0.3, }}
                                 viewport={{ once: true }}
                             >
-                                <span><CheckCircle size={24} /></span>Reliable Local Service
+                                <span><CheckCircle size={24} /></span>{t('listItem3')}
                             </motion.li>
                         </ul>
                     </div>

@@ -42,7 +42,7 @@
     margin-top: 50px;
 }
 .cta {
-    padding: 10px 28px;
+    padding: 10px 5px;
     border-radius: 8px;
     transition: 0.06s ease-in-out;
     font-size: 1.14em;
@@ -58,7 +58,7 @@
     align-items: center;
     gap: 15px;
     border: 1px solid rgba(255, 255, 255, 0.301);
-    width: 320px;
+    max-width: 320px;
     justify-content: center;
     margin-inline: auto;
     margin-top: 60px;

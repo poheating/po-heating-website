@@ -14,7 +14,7 @@ const GasAppliancesAbout = () => {
                     <h3>Cookers and hobs installed with precision and care</h3>
                 </div>
                 <div className={styles.section2Content}>
-                    <Image sizes="(max-width: 768px) 100vw, 1920px" src={'/images/gas-appliances-about.jpg'} width={800} height={800} alt='Radiators Installations & Repairs' />
+                    <Image sizes="(max-width: 768px) 100vw, 1920px" src={'/images/gas-appliances-about-img.webp'} width={800} height={800} alt='Radiators Installations & Repairs' />
                     <div>
                         <p className={styles.sectionPar}>
                             We provide complete <span>new cookers and gas hobs installation</span> services for homeowners and landlords across Weston-super-Mare, Bristol, and Bridgwater. <span>From connecting new cookers to replacing existing hobs</span>, every job is handled with precision, care, and attention to safety.

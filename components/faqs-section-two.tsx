@@ -2,68 +2,71 @@
 
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl';
 
 export default function FAQs() {
+    const t = useTranslations('FAQs');
+
     const faqItems = [
         {
             id: 'item-1',
-            question: 'How often should I service my boiler?',
-            answer: 'Annual boiler servicing is recommended to maintain efficiency, prevent breakdowns, and ensure your warranty remains valid. We provide certified boiler servicing across Weston-super-Mare.',
+            question: t('items.item1.question'),
+            answer: t('items.item1.answer'),
         },
         {
             id: 'item-2',
-            question: 'Can you repair leaking radiators?',
-            answer: 'Yes! We repair all types of radiator leaks, replace faulty valves, and balance your system to ensure even heating throughout your home.',
+            question: t('items.item2.question'),
+            answer: t('items.item2.answer'),
         },
         {
             id: 'item-3',
-            question: 'Do you install smart heating controls?',
-            answer: 'Absolutely. We can install and configure Hive, Nest, or Tado smart thermostats, allowing you to control your heating remotely and save on energy bills.',
+            question: t('items.item3.question'),
+            answer: t('items.item3.answer'),
         },
         {
             id: 'item-4',
-            question: 'Can you install a new gas cooker or hob?',
-            answer: "Yes. We safely install, test, and certify all new gas cookers and hobs in Weston-super-Mare and surrounding areas.",
+            question: t('items.item4.question'),
+            answer: t('items.item4.answer'),
         },
         {
             id: 'item-5',
-            question: 'Do you provide emergency boiler repairs?',
-            answer: 'Yes. We respond promptly to boiler breakdowns, leaks, and fault codes to restore your heating system quickly and safely.',
+            question: t('items.item5.question'),
+            answer: t('items.item5.answer'),
         },
         {
             id: 'item-6',
-            question: 'What areas do you cover?',
-            answer: 'We serve Weston-super-Mare, Bristol, Bridgwater, North Somerset, and nearby towns, providing reliable boiler, radiator, and gas appliance services.',
+            question: t('items.item6.question'),
+            answer: t('items.item6.answer'),
         },
     ]
 
     return (
         <section className='w-full'>
-                    <div className="md:col-span-3">
-                        <Accordion
-                            type="single"
-                            collapsible>
-                            {faqItems.map((item) => (
-                                <AccordionItem
-                                    key={item.id}
-                                    value={item.id}>
-                                    <AccordionTrigger className="cursor-pointer text-base hover:no-underline md:text-lg text-base">{item.question}</AccordionTrigger>
-                                    <AccordionContent>
-                                        <p className="text-base md:text-lg text-gray-700">{item.answer}</p>
-                                    </AccordionContent>
-                                </AccordionItem>
-                            ))}
-                        </Accordion>
-                    </div>
+            <div className="md:col-span-3">
+                <Accordion
+                    type="single"
+                    collapsible>
+                    {faqItems.map((item) => (
+                        <AccordionItem
+                            key={item.id}
+                            value={item.id}>
+                            <AccordionTrigger className="cursor-pointer text-base hover:no-underline md:text-lg text-base">{item.question}</AccordionTrigger>
+                            <AccordionContent>
+                                <p className="text-base md:text-lg text-gray-700">{item.answer}</p>
+                            </AccordionContent>
+                        </AccordionItem>
+                    ))}
+                </Accordion>
+            </div>
 
-                    {/* <p className="text-muted-foreground mt-6 md:hidden">
-                        Can't find what you're looking for? Contact our{' '}
-                        <Link
-                            href="#"
-                            className="text-primary font-medium hover:underline">
-                            customer support team
-                        </Link>
-                    </p> */}
+            {/* <p className="text-muted-foreground mt-6 md:hidden">
+                Can't find what you're looking for? Contact our{' '}
+                <Link
+                    href="#"
+                    className="text-primary font-medium hover:underline">
+                    customer support team
+                </Link>
+            </p> */}
         </section>
     )
 }

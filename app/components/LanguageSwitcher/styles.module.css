@@ -1,0 +1,126 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #f3f4f6;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  width: 200px;
+  margin-inline: auto;
+  margin-bottom: 20px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: #1f2937;
+  }
+}
+
+.toggleButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+  text-align: center !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.currentLocaleText {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+@media (prefers-color-scheme: dark) {
+  .currentLocaleText {
+    color: #d1d5db;
+  }
+}
+
+.currentLocaleValue {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.arrowIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+  color: #6b7280;
+}
+
+.arrowIconOpen {
+  transform: rotate(180deg);
+}
+
+@media (prefers-color-scheme: dark) {
+  .arrowIcon {
+    color: #9ca3af;
+  }
+}
+
+.dropdown {
+  position: absolute;
+  bottom: 100%; /* Changed from top: 100% to bottom: 100% */
+  right: 0;
+  margin-bottom: 0.5rem; /* Changed from margin-top to margin-bottom */
+  background-color: #ffffff;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  z-index: 10;
+  min-width: 8rem;
+  overflow: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dropdown {
+    background-color: #374151;
+  }
+}
+
+.dropdownButton {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition-property: background-color, color;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdownButtonActive {
+  background-color: #2563eb;
+  color: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.dropdownButtonInactive {
+  color: #1f2937;
+  background-color: transparent;
+}
+
+.dropdownButtonInactive:hover {
+  background-color: #e5e7eb;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dropdownButtonInactive {
+    color: #e5e7eb;
+  }
+
+  .dropdownButtonInactive:hover {
+    background-color: #4b5563;
+  }
+}

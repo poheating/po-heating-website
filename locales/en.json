@@ -1,4 +1,29 @@
 {
+  "Layout-metadata": {
+    "title": "Gas & Heating Services in Weston-super-Mare, Bristol & Bridgwater | Local Boiler & Heating Expert",
+    "description": "Trusted local gas and heating engineer in Weston-super-Mare, Bristol and Bridgwater. Expert in boiler servicing, heating repairs, radiator installation and smart boiler controls. Call for reliable service today!",
+    "keywords": {
+      "gasEngineer": "gas engineer Weston-super-Mare, Bristol and Bridgwater",
+      "boilerRepair": "boiler repair Weston-super-Mare",
+      "heatingEngineer": "heating engineer Weston-super-Mare, Bristol and Bridgwater",
+      "radiatorInstallation": "radiator installation Weston-super-Mare",
+      "smartBoilerControls": "smart boiler controls",
+      "boilerService": "boiler service near me",
+      "gasBoilerInstallation": "gas boiler installation Bristol",
+      "localHeatingExpert": "local heating expert Bridgwater"
+    },
+    "openGraph": {
+      "title": "Gas & Heating Services in Weston-super-Mare, Bristol and Bridgwater | Local Expert",
+      "description": "Professional gas and heating services in Weston-super-Mare, Bristol and Bridgwater. From boiler repairs and servicing to smart heating upgrades — reliable, local, and affordable.",
+      "siteName": "Gas & Heating Services in Weston-super-Mare, Bristol and Bridgwater",
+      "imageAlt": "Gas & Heating Engineer in Weston-super-Mare, Bristol and Bridgwater"
+    },
+    "twitter": {
+      "title": "Gas & Heating Services in Weston-super-Mare, Bristol and Bridgwater | Local Expert",
+      "description": "Reliable gas and heating engineer offering boiler repairs, servicing, and installations in Weston-super-Mare."
+    },
+    "category": "Heating and Plumbing Services"
+  },
   "Hero": {
     "title": "Professional Gas & Heating Services in Weston-super-Mare, Bristol & Bridgwater",
     "description": "We specialize in comprehensive boiler servicing, heating repairs, and smart home heating solutions for residents and businesses throughout Somerset.",
@@ -12,8 +37,16 @@
     "aboutTitle": "About po heating",
     "heading": "Reliable Heating Solutions for Every Home",
     "imageAlt": "Plumbing Services across Weston-super-Mare and North Somerset",
-    "paragraph1": "PO Heating provides <span>reliable gas and heating services throughout Weston-super-Mare, Bristol, Bridgwater and North Somerset.</span>",
-    "paragraph2": "With years of experience and full Gas Safe certification, we specialise in <span>boiler servicing, repairs, radiator installations, and smart heating controls</span> — always with a focus on safety, efficiency, and customer satisfaction.",
+    "paragraph1": {
+      "part1": "PO Heating provides ",
+      "span": "reliable gas and heating services throughout Weston-super-Mare, Bristol, Bridgwater and North Somerset.",
+      "part2": ""
+    },
+    "paragraph2": {
+      "part1": "With years of experience and full Gas Safe certification, we specialise in ",
+      "span": "boiler servicing, repairs, radiator installations, and smart heating controls",
+      "part2": " — always with a focus on safety, efficiency, and customer satisfaction."
+    },
     "paragraph3": "From annual boiler maintenance to system upgrades and emergency repairs, PO Heating delivers professional service and honest advice you can rely on. We keep homes in Weston-super-Mare warm, safe, and energy-efficient all year round.",
     "listItem1": "Qualified Gas Safe Engineer",
     "listItem2": "Comprehensive Heating Services",
@@ -52,6 +85,313 @@
         "subheading": "Enhance comfort and energy efficiency with modern thermostats, filters, and stylish radiators.",
         "par": "Upgrade your heating system with modern, efficient solutions.\n        We fit smart thermostats, magnetic filters, and designer radiators that make your home easier to manage and more sustainable.\n        Control your heating from your smartphone, cut energy costs, and enjoy quieter, cleaner performance every day.",
         "alt": "P O Heating - Heating upgrades & smart controls"
+      }
+    }
+  },
+  "WhyUs": {
+    "sectionHeading": {
+      "title": "why us",
+      "subtitle": "Our Promise of Quality & Safety"
+    },
+    "points": {
+      "premiumComponents": {
+        "title": "Premium-Grade Components",
+        "description": "We only use parts and materials tested for durability and energy efficiency."
+      },
+      "safetyChecks": {
+        "title": "Comprehensive Safety Checks",
+        "description": "Each project undergoes rigorous leak, pressure, and performance testing."
+      },
+      "guarantee": {
+        "title": "Workmanship Guarantee",
+        "description": "Every installation is backed by our satisfaction and quality assurance promise."
+      },
+      "transparentService": {
+        "title": "Transparent Service",
+        "description": "Clear communication, honest pricing, and no hidden extras — ever."
+      }
+    },
+    "cta": "Call me now"
+  },
+  "Contact": {
+    "sectionHeading": {
+      "title": "Contact",
+      "subtitle": "Get in Touch with Your Local Heating Expert"
+    },
+    "description": "Need a boiler service, radiator repair, or gas cooker installation? PO Heating provides professional heating solutions for homeowners in Weston-super-Mare and surrounding areas. Reach out today to book a service, request a quote, or get expert advice from a certified Gas Safe engineer. We're committed to keeping your home safe, warm, and energy-efficient.",
+    "contactInfo": {
+      "title": "Contact Information",
+      "name": "Paweł Olszewski",
+      "phone": "+44 7764 380450",
+      "email": "poheating@outlook.com"
+    }
+  },
+  "Faq": {
+    "sectionHeading": {
+      "title": "Faq",
+      "subtitle": "Your Questions Answered"
+    },
+    "description": "Have questions about your boiler, radiator, or gas cooker? Our expert Gas Safe engineer in Weston-super-Mare provides clear answers and practical tips to keep your home safe, warm, and efficient."
+  },
+  "CallMeWidget": {
+    "ariaLabel": "Call me",
+    "tooltip": "call me"
+  },
+  "FAQs": {
+    "items": {
+      "item1": {
+        "question": "How often should I service my boiler?",
+        "answer": "Annual boiler servicing is recommended to maintain efficiency, prevent breakdowns, and ensure your warranty remains valid. We provide certified boiler servicing across Weston-super-Mare."
+      },
+      "item2": {
+        "question": "Can you repair leaking radiators?",
+        "answer": "Yes! We repair all types of radiator leaks, replace faulty valves, and balance your system to ensure even heating throughout your home."
+      },
+      "item3": {
+        "question": "Do you install smart heating controls?",
+        "answer": "Absolutely. We can install and configure Hive, Nest, or Tado smart thermostats, allowing you to control your heating remotely and save on energy bills."
+      },
+      "item4": {
+        "question": "Can you install a new gas cooker or hob?",
+        "answer": "Yes. We safely install, test, and certify all new gas cookers and hobs in Weston-super-Mare and surrounding areas."
+      },
+      "item5": {
+        "question": "Do you provide emergency boiler repairs?",
+        "answer": "Yes. We respond promptly to boiler breakdowns, leaks, and fault codes to restore your heating system quickly and safely."
+      },
+      "item6": {
+        "question": "What areas do you cover?",
+        "answer": "We serve Weston-super-Mare, Bristol, Bridgwater, North Somerset, and nearby towns, providing reliable boiler, radiator, and gas appliance services."
+      }
+    }
+  },
+  "Footer": {
+    "logoAriaLabel": "go home",
+    "logoAlt": "P O heating services",
+    "links": {
+      "about": "About",
+      "services": "Services",
+      "contact": "Contact",
+      "boilerServices": "Gas Boiler Services",
+      "radiatorInstallations": "Radiator Installations & Repairs",
+      "gasApplianceInstallation": "Gas Appliance Installation",
+      "heatingUpgrades": "Heating Upgrades & Smart Controls"
+    },
+    "social": {
+      "facebookAriaLabel": "Facebook",
+      "instagramAriaLabel": "Instagram"
+    },
+    "copyright": "© {year} P O heating, All rights reserved"
+  },
+  "Navbar": {
+    "logoAlt": "Gas & Heating services in Weston-super-Mare",
+    "links": {
+      "contact": "Contact",
+      "about": "About"
+    },
+    "services": {
+      "title": "Services",
+      "boilerServices": "Gas Boiler Services",
+      "radiatorInstallations": "Radiator Installations & Repairs",
+      "gasAppliances": "Gas Appliances Installations",
+      "heatingUpgrades": "Heating Upgrades & Smart Controls"
+    },
+    "callMe": "Call me"
+  },
+  "LanguageSwitcher": {
+    "currentLocale": "Current Language:",
+    "languageNames": {
+      "en": "English",
+      "pl": "Polish"
+    }
+  },
+  "BoilerServices": {
+    "metadata": {
+      "title": "Boiler Service & Repair in Weston-super-Mare, Bristol & Bridgwater | PO Heating",
+      "description": "Expert boiler servicing, repairs, and installations in Weston-super-Mare, Bristol and Bridgwater. Keep your home warm and efficient with certified Gas Safe engineer Paweł Olszewski.",
+      "keywords": {
+        "boilerService": "boiler service Weston-super-Mare, Bristol and Bridgwater",
+        "boilerRepair": "boiler repair Weston-super-Mare",
+        "newBoilerInstallation": "new boiler installation",
+        "gasBoilerMaintenance": "gas boiler maintenance",
+        "boilerEngineer": "boiler engineer Bristol",
+        "emergencyBoilerRepair": "emergency boiler repair"
+      },
+      "openGraph": {
+        "title": "Boiler Services in Weston-super-Mare, Bristol and Bridgwater | P O Heating",
+        "description": "Certified boiler repairs, installations, and maintenance across Weston-super-Mare, Bristol, Bridgwater and North Somerset. Call now for fast, reliable service.",
+        "siteName": "P O Heating",
+        "imageAlt": "Boiler Repair Weston-super-Mare, Bristol and Bridgwater"
+      }
+    },
+    "Hero": {
+      "heading": "boiler services",
+      "title": {
+        "part1": "Reliable",
+        "span": "Boiler Repairs, Installations & Services",
+        "part2": "in Weston-super-Mare and Nearby Towns."
+      },
+      "imageAlt": "Bolier Repairs and Installations in Weston-super-Mare."
+    },
+    "BoilerProblems": {
+      "heading": "Fixed Fast",
+      "subheading": "Common Boiler Problems",
+      "points": {
+        "lowPressure": {
+          "title": "Low pressure or no heat",
+          "desc": "System not heating properly or pressure gauge showing red"
+        },
+        "strangeNoises": {
+          "title": "Strange noises",
+          "desc": "Banging, whistling, or gurgling sounds from your boiler"
+        },
+        "leaks": {
+          "title": "Leaks or Drips",
+          "desc": "Water leaking from pipes, valves, or the boiler unit"
+        }
+      },
+      "sectionPar": "We diagnose and repair all boiler types — quickly and professionally",
+      "cta": "Request Emergency Repair"
+    },
+    "ServicingInstallation": {
+      "heading": "Servicing & Installation",
+      "subheading": "From Annual Servicing to Full Installations — We Handle It All",
+      "blocks": {
+        "regularServicing": {
+          "title": "Regular Boiler Servicing",
+          "points": {
+            "safety": {
+              "title": "Home Safety",
+              "desc": "Thorough inspections that prevent breakdowns and carbon monoxide leaks, keeping your household protected."
+            },
+            "insurance": {
+              "title": "Home Insurance Requirement",
+              "desc": "Many insurance policies require proof of annual servicing to maintain full coverage and avoid claim issues."
+            },
+            "efficiency": {
+              "title": "Improved Efficiency",
+              "desc": "Regular servicing helps your boiler run more efficiently, lowering energy usage and reducing monthly bills."
+            }
+          }
+        },
+        "newInstallations": {
+          "title": "New Boiler Installations",
+          "points": {
+            "advice": {
+              "title": "Expert Advice",
+              "desc": "Free consultation to help you choose the right boiler for your home and budget"
+            },
+            "installation": {
+              "title": "Professional Installation",
+              "desc": "Full installation service including removal of old boiler and system upgrades"
+            },
+            "certified": {
+              "title": "Gas Safe Certified",
+              "desc": "All work completed to the highest safety standards with certification included"
+            }
+          }
+        }
+      },
+      "certificate": "Gas Safe Registered Engineer"
+    },
+    "SmartControls": {
+      "heading": "Smart Boiler Controls",
+      "subheading": "Intelligent Heating, Greater Comfort",
+      "sectionPar": "Upgrade your home's efficiency with smart boiler controls that let you manage your hot water and heating with ease. We install and configures modern thermostats and smart control systems compatible with most popular boiler brands.",
+      "points": {
+        "remote": {
+          "title": "Adjust your boiler temperature",
+          "desc": "remotely via smartphone or tablet"
+        },
+        "energy": {
+          "title": "Reduce energy consumption",
+          "desc": "and lower your bills"
+        },
+        "consistency": {
+          "title": "Keep consistent water temperature",
+          "desc": "and heating comfort all year round"
+        },
+        "integration": {
+          "title": "Integrate with",
+          "desc": "existing home automation systems"
+        }
+      },
+      "cta": "Get Smart Control Installed"
+    }
+  },
+  "About-Page": {
+    "metadata": {
+      "title": "About PO Heating | Local Gas & Heating Engineer in Weston-super-Mare, Bristol & Bridgwater",
+      "description": "Learn more about P O Heating, founded by Gas Safe engineer Paweł Olszewski. Providing trusted heating and gas services across Weston-super-Mare, Bristol, Bridgwater and North Somerset.",
+      "keywords": {
+        "about": "about PO Heating",
+        "gasSafeEngineer": "gas safe engineer Weston-super-Mare, Bristol and Bridgwater",
+        "localHeatingExpert": "local heating expert",
+        "pawelOlszewski": "Paweł Olszewski gas engineer",
+        "boilerSpecialist": "boiler specialist Bristol",
+        "heatingCompany": "heating company Weston-super-Mare"
+      },
+      "openGraph": {
+        "title": "About PO Heating | Reliable Gas Safe Engineer",
+        "description": "PO Heating offers professional heating and gas services with a personal touch. Learn about our story, values, and commitment to safe, efficient heating.",
+        "siteName": "PO Heating",
+        "imageAlt": "PO Heating - About Page"
+      }
+    },
+    "AboutPage": {
+      "section1": {
+        "heading": "about us",
+        "title": {
+          "part1": "Trusted",
+          "span": "Gas & Heating Services",
+          "part2": "in Weston-super-Mare & Surrounding Areas."
+        },
+        "imageAlt": "Gas & Heating Services in Weston-super-Mare and Nearby Towns.",
+        "heroPoints": {
+          "safety": {
+            "title": "Safety First",
+            "desc": "Always Gas Safe certified and compliant with UK standards."
+          },
+          "efficiency": {
+            "title": "Efficiency & Comfort",
+            "desc": "Smart solutions that save energy and improve performance."
+          },
+          "honesty": {
+            "title": "Honesty & Transparency",
+            "desc": "Clear communication, no hidden costs."
+          }
+        }
+      },
+      "section2": {
+        "heading": "our story",
+        "subheading": "A Local Heating Engineer You Can Trust",
+        "imageAlt": "Local Heating Engineer in Weston-super-Mare.",
+        "paragraph1": {
+          "part1": "My name is Paweł Olszewski and I am the founder of PO Heating. I am a certified Gas Safe engineer in Weston-super-Mare.",
+          "span": "years of hands-on experience in boiler repairs, heating installations, and smart control systems",
+          "part2": ", I built PO Heating on three simple values — safety, reliability, and honest service."
+        },
+        "paragraph2": {
+          "part1": "Every home deserves efficient, affordable heating — and that's what",
+          "span": " we deliver across Weston-super-Mare, Bristol, Bridgwater and North Somerset",
+          "part2": ". Whether it's a small leak or a full system upgrade, you can expect precision workmanship and personal care on every job."
+        },
+        "cta": {
+          "title": "Ready to Book Your Heating Service?",
+          "description": "Keep your home safe, warm, and energy-efficient with trusted heating and gas services from PO Heating. Whether you need a quick boiler repair, an annual service, or a full heating upgrade, we're here to help — always certified, professional, and local.",
+          "button": "Call me"
+        }
+      },
+      "section3": {
+        "heading": "why us",
+        "subheading": "Quality Heating Care for Every Home in Weston-super-Mare",
+        "paragraph": "Choosing the right heating engineer matters — and at PO Heating, we take pride in long-term customer relationships. We're not a big corporate company — we're your local expert, always just a call away when your home needs professional attention.",
+        "points": {
+          "friendlyService": "Friendly, personal service from a qualified engineer",
+          "transparentPricing": "Transparent pricing with no hidden extras",
+          "fastResponse": "Fast response across Weston-super-Mare and nearby towns",
+          "guaranteedWorkmanship": "Guaranteed workmanship and honest advice"
+        }
       }
     }
   }

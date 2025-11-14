@@ -8,7 +8,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { LOCALES } from "@/i18n";
-import { getMessages } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 
 type Props = {
   children: ReactNode;
@@ -30,61 +30,64 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Gas & Heating Services in Weston-super-Mare, Bristol & Bridgwater | Local Boiler & Heating Expert",
-  description:
-    "Trusted local gas and heating engineer in Weston-super-Mare, Bristol and Bridgwater. Expert in boiler servicing, heating repairs, radiator installation and smart boiler controls. Call for reliable service today!",
-  keywords: [
-    "gas engineer Weston-super-Mare, Bristol and Bridgwater",
-    "boiler repair Weston-super-Mare",
-    "heating engineer Weston-super-Mare, Bristol and Bridgwater",
-    "radiator installation Weston-super-Mare",
-    "smart boiler controls",
-    "boiler service near me",
-    "gas boiler installation Bristol",
-    "local heating expert Bridgwater",
-  ],
-  openGraph: {
-    title: "Gas & Heating Services in Weston-super-Mare, Bristol and Bridgwater | Local Expert",
-    description:
-      "Professional gas and heating services in Weston-super-Mare, Bristol and Bridgwater. From boiler repairs and servicing to smart heating upgrades — reliable, local, and affordable.",
-    // url: "https://www.yourdomain.co.uk/",
-    siteName: "Gas & Heating Services in Weston-super-Mare, Bristol and Bridgwater",
-    locale: "en_GB",
-    type: "website",
-    images: [
-      {
-        url: "/images/poheating-metadata.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Gas & Heating Engineer in Weston-super-Mare, Bristol and Bridgwater",
-      },
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Layout-metadata' });
+
+  return {
+    title: t('title'),
+    description: t('description'),
+    keywords: [
+      t('keywords.gasEngineer'),
+      t('keywords.boilerRepair'),
+      t('keywords.heatingEngineer'),
+      t('keywords.radiatorInstallation'),
+      t('keywords.smartBoilerControls'),
+      t('keywords.boilerService'),
+      t('keywords.gasBoilerInstallation'),
+      t('keywords.localHeatingExpert'),
     ],
-  },
-  alternates: {
-    // canonical: "https://www.yourdomain.co.uk/",
-    languages: {
-      // "en-GB": "https://www.yourdomain.co.uk/",
-      // "pl-PL": "https://www.yourdomain.co.uk/pl",
+    openGraph: {
+      title: t('openGraph.title'),
+      description: t('openGraph.description'),
+      // url: "https://www.yourdomain.co.uk/",
+      siteName: t('openGraph.siteName'),
+      locale: locale === 'pl' ? 'pl_PL' : 'en_GB',
+      type: "website",
+      images: [
+        {
+          url: "/images/poheating-metadata.jpg",
+          width: 1200,
+          height: 630,
+          alt: t('openGraph.imageAlt'),
+        },
+      ],
     },
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
+    alternates: {
+      // canonical: "https://www.yourdomain.co.uk/",
+      languages: {
+        // "en-GB": "https://www.yourdomain.co.uk/",
+        // "pl-PL": "https://www.yourdomain.co.uk/pl",
+      },
+    },
+    robots: {
       index: true,
       follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+      },
     },
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Gas & Heating Services in Weston-super-Mare, Bristol and Bridgwater | Local Expert",
-    description:
-      "Reliable gas and heating engineer offering boiler repairs, servicing, and installations in Weston-super-Mare.",
-    images: ["/images/poheating-metadata.jpg"],
-  },
-  category: "Heating and Plumbing Services",
-};
+    twitter: {
+      card: "summary_large_image",
+      title: t('twitter.title'),
+      description: t('twitter.description'),
+      images: ["/images/poheating-metadata.jpg"],
+    },
+    category: t('category'),
+  };
+}
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
 }
