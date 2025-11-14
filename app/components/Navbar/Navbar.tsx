@@ -4,36 +4,37 @@ import Link from 'next/link';
 import styles from './styles.module.css'
 import Image from 'next/image';
 import { PhoneCallIcon, ChevronDown, Menu, X } from 'lucide-react'
-import { motion, useScroll, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useEffect, useState, useRef } from 'react';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 
 const Navbar = () => {
-    const { scrollY } = useScroll();
-    const [scrolled, setScrolled] = useState(scrollY.get() > 10)
+    const [scrolled, setScrolled] = useState(false)
     const [isServicesOpen, setIsServicesOpen] = useState(false)
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
     const dropdownRef = useRef<HTMLDivElement>(null)
     const mobileMenuRef = useRef<HTMLDivElement>(null)
 
     const pathname = usePathname()
-    const isHomePage = pathname === "/"
+    const isHomePage = pathname === "/en" || pathname === "/pl"
     const t = useTranslations('Navbar');
 
     useEffect(() => {
         if (isHomePage) {
-            const unsubscribe = scrollY.onChange((value: number) => {
-                setScrolled(value > 10)
-            })
+            const handleScroll = () => {
+                setScrolled(window.scrollY > 10)
+            }
 
-            setScrolled(scrollY.get() > 10)
+            // Sprawdzamy początkowy stan
+            handleScroll();
 
-            return () => unsubscribe()
+            window.addEventListener('scroll', handleScroll)
+            return () => window.removeEventListener('scroll', handleScroll)
         } else {
             setScrolled(true)
         }
-    }, [scrollY]);
+    }, [isHomePage]);
 
     // Close dropdown when clicking outside (desktop only)
     useEffect(() => {
@@ -101,7 +102,7 @@ const Navbar = () => {
                         links.map((link, i) => (
                             <a
                                 style={{
-                                    color: scrolled ? 'rgb(33, 33, 33)' : 'rgb(236, 236, 236)',
+                                    color: scrolled || !isHomePage ? 'rgb(33, 33, 33)' : 'rgb(236, 236, 236)',
                                 }}
                                 className={styles.link} href={link.link} key={i}>{link.name}</a>
                         ))
@@ -117,7 +118,7 @@ const Navbar = () => {
                         <button
                             className={styles.dropdownToggle}
                             style={{
-                                color: scrolled ? 'rgb(33, 33, 33)' : 'rgb(236, 236, 236)',
+                                color: scrolled || !isHomePage ? 'rgb(33, 33, 33)' : 'rgb(236, 236, 236)',
                             }}
                             onClick={() => setIsServicesOpen(!isServicesOpen)}
                         >
@@ -167,7 +168,7 @@ const Navbar = () => {
                     className={styles.mobileMenuButton}
                     onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                     style={{
-                        color: scrolled || isMobileMenuOpen ? 'rgb(33, 33, 33)' : 'rgb(236, 236, 236)',
+                        color: scrolled || !isHomePage || isMobileMenuOpen ? 'rgb(33, 33, 33)' : 'rgb(236, 236, 236)',
                     }}
                 >
                     {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
