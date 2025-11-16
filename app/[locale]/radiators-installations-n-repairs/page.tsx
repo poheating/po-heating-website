@@ -5,10 +5,16 @@ import RadiatorsOurProcess from '../../components/RadiatorsPage/RadiatorsOurProc
 import RadiatorsProblems from '../../components/RadiatorsPage/RadiatorsProblems/RadiatorsProblems';
 import styles from './styles.module.css'
 import CallMeWidget from '../../components/CallMeWidget/callme-widget';
-
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Radiators.metadata' });
+
+  const baseUrl = "https://www.poheating.com";
+
+  const currentUrl =
+    locale === "pl"
+      ? `${baseUrl}/pl/radiators-installations-n-repairs`
+      : `${baseUrl}/en/radiators-installations-n-repairs`;
 
   return {
     title: t('title'),
@@ -28,6 +34,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     openGraph: {
       title: t('openGraph.title'),
       description: t('openGraph.description'),
+      url: currentUrl,
       siteName: t('openGraph.siteName'),
       locale: locale === 'pl' ? 'pl_PL' : 'en_GB',
       type: "article",
@@ -41,11 +48,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       ],
     },
     alternates: {
-      // canonical: "https://www.yourdomain.co.uk/radiators-installations-n-repairs",
-      // languages: {
-      //   "en-GB": "https://www.yourdomain.co.uk/radiators-installations-n-repairs",
-      //   "pl-PL": "https://www.yourdomain.co.uk/pl/grzejniki",
-      // },
+      canonical: currentUrl,
+      languages: {
+        "en-GB": `${baseUrl}/en/radiators-installations-n-repairs`,
+        "pl-PL": `${baseUrl}/pl/radiators-installations-n-repairs`,
+      },
     },
   };
 }

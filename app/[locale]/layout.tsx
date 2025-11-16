@@ -35,6 +35,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Layout-metadata' });
 
+  const baseUrl = "https://www.poheating.com";
+
+  const currentUrl = locale === "pl"
+    ? `${baseUrl}/pl`
+    : `${baseUrl}/en`;
+
   return {
     title: t('title'),
     description: t('description'),
@@ -51,7 +57,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     openGraph: {
       title: t('openGraph.title'),
       description: t('openGraph.description'),
-      // url: "https://www.yourdomain.co.uk/",
+      url: currentUrl,
       siteName: t('openGraph.siteName'),
       locale: locale === 'pl' ? 'pl_PL' : 'en_GB',
       type: "website",
@@ -65,10 +71,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       ],
     },
     alternates: {
-      // canonical: "https://www.yourdomain.co.uk/",
+      canonical: currentUrl,
       languages: {
-        // "en-GB": "https://www.yourdomain.co.uk/",
-        // "pl-PL": "https://www.yourdomain.co.uk/pl",
+        "en-GB": `${baseUrl}/en`,
+        "pl-PL": `${baseUrl}/pl`,
       },
     },
     robots: {

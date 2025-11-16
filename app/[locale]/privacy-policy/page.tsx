@@ -2,38 +2,49 @@ import { getTranslations } from 'next-intl/server';
 import styles from './styles.module.css'
 import { useTranslations } from 'next-intl';
 
-
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
-    const { locale } = await params;
-    const m = await getTranslations({ locale, namespace: 'Privacy-Metadata' });
+  const { locale } = await params;
+  const m = await getTranslations({ locale, namespace: 'Privacy-Metadata' });
 
-    return {
-        title: m('title'),
-        description: m('description'),
-        keywords: [
-            m('keywords.privacyPolicy'),
-            m('keywords.personalData'),
-            m('keywords.gdpr'),
-        ],
-        openGraph: {
-            title: m('openGraph.title'),
-            description: m('openGraph.description'),
-            siteName: m('openGraph.siteName'),
-            locale: locale === 'pl' ? 'pl_PL' : 'en_GB',
-            type: "article",
-            images: [
-                {
-                    url: "/images/poheating-metadata.jpg",
-                    width: 1200,
-                    height: 630,
-                    alt: m('openGraph.imageAlt'),
-                },
-            ],
+  const baseUrl = "https://www.poheating.com";
+
+  const currentUrl =
+    locale === "pl"
+      ? `${baseUrl}/pl/privacy-policy`
+      : `${baseUrl}/en/privacy-policy`;
+
+  return {
+    title: m('title'),
+    description: m('description'),
+    keywords: [
+      m('keywords.privacyPolicy'),
+      m('keywords.personalData'),
+      m('keywords.gdpr'),
+    ],
+    openGraph: {
+      title: m('openGraph.title'),
+      description: m('openGraph.description'),
+      url: currentUrl,
+      siteName: m('openGraph.siteName'),
+      locale: locale === 'pl' ? 'pl_PL' : 'en_GB',
+      type: "article",
+      images: [
+        {
+          url: "/images/poheating-metadata.jpg",
+          width: 1200,
+          height: 630,
+          alt: m('openGraph.imageAlt'),
         },
-        alternates: {
-            // canonical: locale === 'pl' ? "https://www.yourdomain.co.uk/pl/privacy-policy" : "https://www.yourdomain.co.uk/privacy-policy",
-        },
-    };
+      ],
+    },
+    alternates: {
+      canonical: currentUrl,
+      languages: {
+        "en-GB": `${baseUrl}/en/privacy-policy`,
+        "pl-PL": `${baseUrl}/pl/privacy-policy`,
+      },
+    },
+  };
 }
 
 const PrivacyPolicy = () => {

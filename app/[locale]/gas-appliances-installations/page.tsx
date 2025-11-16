@@ -11,6 +11,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'GasAppliances.metadata' });
 
+  const baseUrl = "https://www.poheating.com";
+
+  const currentUrl =
+    locale === "pl"
+      ? `${baseUrl}/pl/gas-appliances-installations`
+      : `${baseUrl}/en/gas-appliances-installations`;
+
   return {
     title: t('title'),
     description: t('description'),
@@ -28,8 +35,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     openGraph: {
       title: t('openGraph.title'),
       description: t('openGraph.description'),
+      url: currentUrl,
       siteName: t('openGraph.siteName'),
-      locale: locale === 'pl' ? 'pl_PL' : 'en_GB',
+      locale: locale === "pl" ? "pl_PL" : "en_GB",
       type: "article",
       images: [
         {
@@ -41,14 +49,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       ],
     },
     alternates: {
-      // canonical: "https://www.yourdomain.co.uk/gas-appliance-installations",
-      // languages: {
-      //   "en-GB": "https://www.yourdomain.co.uk/gas-appliance-installations",
-      //   "pl-PL": "https://www.yourdomain.co.uk/pl/instalacje-gazowe",
-      // },
+      canonical: currentUrl,
+      languages: {
+        "en-GB": `${baseUrl}/en/gas-appliances-installations`,
+        "pl-PL": `${baseUrl}/pl/gas-appliances-installations`,
+      },
     },
   };
 }
+
 
 const GasAppliancesInstallations = () => {
     return ( 

@@ -10,6 +10,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'BoilerServices.metadata' });
 
+  const baseUrl = "https://www.poheating.com";
+
+  const currentUrl =
+    locale === "pl"
+      ? `${baseUrl}/pl/boiler-services`
+      : `${baseUrl}/en/boiler-services`;
+
   return {
     title: t('title'),
     description: t('description'),
@@ -24,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     openGraph: {
       title: t('openGraph.title'),
       description: t('openGraph.description'),
-      // url: "https://www.yourdomain.co.uk/boiler-services",
+      url: currentUrl,
       siteName: t('openGraph.siteName'),
       locale: locale === 'pl' ? 'pl_PL' : 'en_GB',
       type: "article",
@@ -38,11 +45,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       ],
     },
     alternates: {
-      // canonical: "https://www.yourdomain.co.uk/boiler-services",
-      // languages: {
-      //   "en-GB": "https://www.yourdomain.co.uk/boiler-services",
-      //   "pl-PL": "https://www.yourdomain.co.uk/pl/serwis-boilerow",
-      // },
+      canonical: currentUrl,
+      languages: {
+        "en-GB": `${baseUrl}/en/boiler-services`,
+        "pl-PL": `${baseUrl}/pl/boiler-services`,
+      },
     },
   };
 }

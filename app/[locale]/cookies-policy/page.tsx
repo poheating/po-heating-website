@@ -2,40 +2,49 @@ import { getTranslations } from 'next-intl/server';
 import styles from './styles.module.css'
 import { useTranslations } from 'next-intl';
 
-
-
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
-    const { locale } = await params;
-    const m = await getTranslations({ locale, namespace: 'Cookies-Metadata' });
+  const { locale } = await params;
+  const m = await getTranslations({ locale, namespace: 'Cookies-Metadata' });
 
+  const baseUrl = "https://www.poheating.com";
 
-    return {
-        title: m('title'),
-        description: m('description'),
-        keywords: [
-            m('keywords.cookiesPolicy'),
-            m('keywords.essentialCookies'),
-            m('keywords.websiteCookies'),
-        ],
-        openGraph: {
-            title: m('openGraph.title'),
-            description: m('openGraph.description'),
-            siteName: m('openGraph.siteName'),
-            locale: locale === 'pl' ? 'pl_PL' : 'en_GB',
-            type: "article",
-            images: [
-                {
-                    url: "/images/poheating-metadata.jpg",
-                    width: 1200,
-                    height: 630,
-                    alt: m('openGraph.imageAlt'),
-                },
-            ],
+  const currentUrl =
+    locale === "pl"
+      ? `${baseUrl}/pl/cookies-policy`
+      : `${baseUrl}/en/cookies-policy`;
+
+  return {
+    title: m('title'),
+    description: m('description'),
+    keywords: [
+      m('keywords.cookiesPolicy'),
+      m('keywords.essentialCookies'),
+      m('keywords.websiteCookies'),
+    ],
+    openGraph: {
+      title: m('openGraph.title'),
+      description: m('openGraph.description'),
+      url: currentUrl,
+      siteName: m('openGraph.siteName'),
+      locale: locale === 'pl' ? 'pl_PL' : 'en_GB',
+      type: "article",
+      images: [
+        {
+          url: "/images/poheating-metadata.jpg",
+          width: 1200,
+          height: 630,
+          alt: m('openGraph.imageAlt'),
         },
-        alternates: {
-            // canonical: locale === 'pl' ? "https://www.yourdomain.co.uk/pl/cookies-policy" : "https://www.yourdomain.co.uk/cookies-policy",
-        },
-    };
+      ],
+    },
+    alternates: {
+      canonical: currentUrl,
+      languages: {
+        "en-GB": `${baseUrl}/en/cookies-policy`,
+        "pl-PL": `${baseUrl}/pl/cookies-policy`,
+      },
+    },
+  };
 }
 
 
