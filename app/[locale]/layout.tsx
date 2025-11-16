@@ -114,7 +114,8 @@ export default async function LocaleLayout({
 
   let messages;
   try {
-    messages = await getMessages();
+    // Load messages for the specific locale
+    messages = (await import(`@/locales/${locale}.json`)).default;
   } catch (error) {
     console.error('Failed to load messages:', error);
     // Fallback to empty messages
@@ -127,7 +128,7 @@ export default async function LocaleLayout({
         <link rel="preload" as="image" href="/images/poheating-hero.webp" />
       </Head>
       <body className={inter.className}>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />
           <main>{children}</main>
           <FooterSection />
