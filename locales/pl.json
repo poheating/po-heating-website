@@ -167,7 +167,7 @@
   },
   "Footer": {
     "logoAriaLabel": "strona główna",
-    "logoAlt": "P O heating services",
+    "logoAlt": "PO heating services",
     "links": {
       "about": "O nas",
       "services": "Usługi",
@@ -183,7 +183,7 @@
       "facebookAriaLabel": "Facebook",
       "instagramAriaLabel": "Instagram"
     },
-    "copyright": "© {year} P O heating, Wszelkie prawa zastrzeżone"
+    "copyright": "© {year} PO heating, Wszelkie prawa zastrzeżone"
   },
   "Navbar": {
     "logoAlt": "Usługi Gazowe i Grzewcze w Weston-super-Mare",
@@ -222,7 +222,7 @@
       "openGraph": {
         "title": "Usługi Bojlerów w Weston-super-Mare, Bristolu i Bridgwater | P O Heating",
         "description": "Certyfikowane naprawy, instalacje i konserwacja bojlerów w Weston-super-Mare, Bristolu, Bridgwater i North Somerset. Zadzwoń teraz po szybką, niezawodną usługę.",
-        "siteName": "P O Heating",
+        "siteName": "PO Heating",
         "imageAlt": "Naprawa Bojlerów Weston-super-Mare, Bristol i Bridgwater"
       }
     },
