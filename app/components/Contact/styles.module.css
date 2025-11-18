@@ -1,0 +1,161 @@
+.page {
+    background-color: white;
+    padding-top: 130px;
+    padding-bottom: 160px;
+}
+
+.content {
+    max-width: 1300px;
+    padding: 15px;
+    margin-inline: auto;
+}
+
+.sectionHeading h2 {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: rgb(255, 51, 0);
+    text-transform: uppercase;
+}
+
+.sectionHeading h3 {
+    font-size: 2.7em;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: rgb(48, 48, 48);
+}
+
+
+.par {
+    font-size: 1.25em;
+    line-height: 1.6;
+    letter-spacing: -0.3px;
+    color: rgb(80, 80, 80);
+    margin-bottom: 27px;
+    max-width: 600px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 50px;
+}
+
+.bottom h4 {
+    font-size: 1.55em;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    color: #6e6e6e;
+}
+
+
+.right p {
+    font-weight: 400;
+    font-size: 1.18em;
+    line-height: 1.6;
+    letter-spacing: -0.3px;
+    color: rgb(80, 80, 80);
+    margin-bottom: 18px;
+    font-weight: 500;
+}
+
+.contactWays {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 50px;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.contactWays p {
+    background-color: white;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    color: rgb(255, 51, 0);
+    white-space: nowrap;
+
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.right {
+    background-color: rgb(240, 240, 240);
+    padding: 50px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.contactWays a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1250px) {
+    .bottom {
+        flex-direction: column;
+    }
+
+    .contactWays {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .par {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .sectionHeading h2 {
+        font-size: 1.04em;
+    }
+
+    .sectionHeading h3 {
+        font-size: 2.25em;
+    }
+
+    .content img {
+        max-height: 500px;
+    }
+
+    .bottom {
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 35px;
+    }
+
+    .right {
+        padding: 32px;
+    }
+
+    .point h4 {
+        font-size: 1.4em;
+    }
+
+    .par {
+        font-size: 1.14em;
+        line-height: 1.52;
+    }
+
+
+    .bottom h4 {
+        font-size: 1.4em;
+    }
+
+
+    .right p {
+        font-size: 1.14em;
+    }
+}

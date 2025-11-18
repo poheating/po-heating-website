@@ -1,0 +1,767 @@
+{
+  "Layout-metadata": {
+    "title": "Usługi Gazowe i Grzewcze w Weston-super-Mare, Bristolu i Bridgwater | Lokalny Ekspert od Bojlerów i Ogrzewania",
+    "description": "Zaufany lokalny inżynier gazowy i grzewczy w Weston-super-Mare, Bristolu i Bridgwater. Ekspert w serwisie bojlerów, naprawach systemów grzewczych, instalacjach grzejników i inteligentnych sterownikach bojlerów. Zadzwoń po niezawodną usługę już dziś!",
+    "keywords": {
+      "gasEngineer": "inżynier gazowy Weston-super-Mare, Bristol i Bridgwater",
+      "boilerRepair": "naprawa bojlera Weston-super-Mare",
+      "heatingEngineer": "inżynier grzewczy Weston-super-Mare, Bristol i Bridgwater",
+      "radiatorInstallation": "instalacja grzejników Weston-super-Mare",
+      "smartBoilerControls": "inteligentne sterowniki bojlerów",
+      "boilerService": "serwis bojlera w pobliżu",
+      "gasBoilerInstallation": "instalacja gazowego bojlera Bristol",
+      "localHeatingExpert": "lokalny ekspert grzewczy Bridgwater"
+    },
+    "openGraph": {
+      "title": "Usługi Gazowe i Grzewcze w Weston-super-Mare, Bristolu i Bridgwater | Lokalny Ekspert",
+      "description": "Profesjonalne usługi gazowe i grzewcze w Weston-super-Mare, Bristolu i Bridgwater. Od napraw i serwisów bojlerów po modernizacje inteligentnego ogrzewania — niezawodne, lokalne i przystępne cenowo.",
+      "siteName": "Usługi Gazowe i Grzewcze w Weston-super-Mare, Bristolu i Bridgwater",
+      "imageAlt": "Inżynier Gazowy i Grzewczy w Weston-super-Mare, Bristolu i Bridgwater"
+    },
+    "twitter": {
+      "title": "Usługi Gazowe i Grzewcze w Weston-super-Mare, Bristolu i Bridgwater | Lokalny Ekspert",
+      "description": "Niezawodny inżynier gazowy i grzewczy oferujący naprawy, serwisy i instalacje bojlerów w Weston-super-Mare."
+    },
+    "category": "Usługi Grzewcze i Hydrauliczne"
+  },
+  "Hero": {
+    "title": "Profesjonalne Usługi Gazowe i Grzewcze w Weston-super-Mare, Bristolu i Bridgwater",
+    "description": "Specjalizujemy się w kompleksowym serwisie bojlerów, naprawach systemów grzewczych oraz inteligentnych rozwiązaniach grzewczych dla mieszkańców i firm w całym Somerset.",
+    "callNow": "Zadzwoń teraz",
+    "services": "Usługi"
+  },
+  "TopPar": {
+    "quote": "Zyskaj niezawodny komfort i spokój ducha dzięki eksperckim rozwiązaniom grzewczym zaprojektowanym, aby utrzymać Twój dom ciepły, wydajny i bezpieczny przez cały rok."
+  },
+  "About": {
+    "aboutTitle": "O po heating",
+    "heading": "Niezawodne Rozwiązania Grzewcze dla Każdego Domu",
+    "imageAlt": "Usługi Hydrauliczne w Weston-super-Mare i North Somerset",
+    "paragraph1": {
+      "part1": "PO Heating zapewnia ",
+      "span": "niezawodne usługi gazowe i grzewcze na terenie Weston-super-Mare, Bristolu, Bridgwater i North Somerset.",
+      "part2": ""
+    },
+    "paragraph2": {
+      "part1": "Z wieloletnim doświadczeniem i pełną certyfikacją Gas Safe, specjalizujemy się w ",
+      "span": "serwisie bojlerów, naprawach, instalacjach grzejników i inteligentnych sterownikach grzewczych",
+      "part2": " — zawsze z naciskiem na bezpieczeństwo, wydajność i satysfakcję klienta."
+    },
+    "paragraph3": "Od corocznej konserwacji bojlera po modernizacje systemów i naprawy awaryjne, PO Heating dostarcza profesjonalne usługi i uczciwe porady, na których można polegać. Utrzymujemy domy w Weston-super-Mare ciepłe, bezpieczne i energooszczędne przez cały rok.",
+    "listItem1": "Wykwalifikowany Inżynier Gas Safe",
+    "listItem2": "Kompleksowe Usługi Grzewcze",
+    "listItem3": "Niezawodna Lokalna Usługa"
+  },
+  "Services": {
+    "sectionHeading": {
+      "services": "usługi",
+      "title": "Profesjonalne Usługi Grzewcze dla Każdego Domu"
+    },
+    "services": {
+      "boiler": {
+        "topic": "Serwis i Naprawy Bojlerów",
+        "name": "Utrzymaj Swój Dom Ciepły i Bezpieczny",
+        "subheading": "Roczna konserwacja i szybkie naprawy, które utrzymują Twój bojler wydajny, bezpieczny i gotowy na zimę.",
+        "par": "Dobrze utrzymany bojler to spokój ducha.\n        Zapewniamy certyfikowany serwis i eksperckie naprawy, aby Twój system grzewczy działał sprawnie przez cały rok.\n        Czy to przeciek, problem z ciśnieniem czy dziwne dźwięki — diagnozujemy, naprawiamy i przywracamy Twój bojler do pełnej sprawności.\n        Regularny serwis zapobiega kosztownym awariom i zapewnia równomierne ciepło w całym domu.",
+        "alt": "P O Heating - Serwis i Naprawy Bojlerów"
+      },
+      "radiators": {
+        "topic": "Grzejniki — instalacja i naprawa",
+        "name": "Ciepło Tam, Gdzie Jest Potrzebne",
+        "subheading": "Od przecieków po stylowe modernizacje — sprawiamy, że każdy grzejnik działa idealnie.",
+        "par": "Zimne miejsca lub przeciekające rury? Naprawimy to szybko.\n        Równoważymy system grzewczy dla równomiernego ciepła w każdym pomieszczeniu, naprawiamy przecieki i wymieniamy stare grzejniki na nowoczesne, designerskie opcje łączące wydajność ze stylem.",
+        "alt": "P O Heating - Grzejniki — instalacja i naprawa"
+      },
+      "gas-appliance": {
+        "topic": "Instalacja urządzeń gazowych",
+        "name": "Bezpieczna Instalacja Kuchenki Gazowej",
+        "subheading": "Certyfikowana instalacja Gas Safe dla kuchenek i płyt gazowych.",
+        "par": "Podczas instalacji nowej kuchenki lub płyty gazowej bezpieczeństwo jest najważniejsze.\n        Zapewniamy certyfikowaną, bezpieczną instalację gazową, gwarantując, że urządzenie jest podłączone, przetestowane i zgodne ze wszystkimi normami bezpieczeństwa.\n        Ciesz się spokojem, wiedząc, że Twoja kuchnia jest bezpieczna i gotowa do użytku.",
+        "alt": "P O Heating - Instalacja urządzeń gazowych"
+      },
+      "smart-controls": {
+        "topic": "Modernizacje grzewcze i inteligentne sterowanie",
+        "name": "Zmodernizuj Swój System Grzewczy",
+        "subheading": "Zwiększ komfort i efektywność energetyczną dzięki nowoczesnym termostatom, filtrom i stylowym grzejnikom.",
+        "par": "Zmodernizuj swój system grzewczy dzięki nowoczesnym, wydajnym rozwiązaniom.\n        Instalujemy inteligentne termostaty, filtry magnetyczne i designerskie grzejniki, które sprawiają, że Twój dom jest łatwiejszy w zarządzaniu i bardziej zrównoważony.\n        Kontroluj ogrzewanie za pomocą smartfona, obniż koszty energii i ciesz się cichszą, czystszą pracą każdego dnia.",
+        "alt": "P O Heating - Modernizacje grzewcze i inteligentne sterowanie"
+      }
+    }
+  },
+  "WhyUs": {
+    "sectionHeading": {
+      "title": "dlaczego my",
+      "subtitle": "Nasza Obietnica Jakości i Bezpieczeństwa"
+    },
+    "points": {
+      "premiumComponents": {
+        "title": "Komponenty Najwyższej Jakości",
+        "description": "Używamy tylko części i materiałów przetestowanych pod kątem trwałości i efektywności energetycznej."
+      },
+      "safetyChecks": {
+        "title": "Kompleksowe Kontrole Bezpieczeństwa",
+        "description": "Każdy projekt przechodzi rygorystyczne testy szczelności, ciśnienia i wydajności."
+      },
+      "guarantee": {
+        "title": "Gwarancja Jakości Wykonania",
+        "description": "Każda instalacja jest objęta naszą obietnicą satysfakcji i zapewnienia jakości."
+      },
+      "transparentService": {
+        "title": "Transparentna Usługa",
+        "description": "Jasna komunikacja, uczciwe ceny i brak ukrytych kosztów — zawsze."
+      }
+    },
+    "cta": "Zadzwoń teraz"
+  },
+  "Contact": {
+    "sectionHeading": {
+      "title": "Kontakt",
+      "subtitle": "Skontaktuj się z Lokalnym Ekspertem Grzewczym"
+    },
+    "description": "Potrzebujesz serwisu bojlera, naprawy grzejnika lub instalacji kuchenki gazowej? PO Heating zapewnia profesjonalne rozwiązania grzewcze dla właścicieli domów w Weston-super-Mare i okolicach. Skontaktuj się dziś, aby umówić serwis, złożyć zapytanie ofertowe lub uzyskać fachową poradę od certyfikowanego inżyniera Gas Safe. Zobowiązujemy się do utrzymania Twojego domu w bezpiecznym, ciepłym i energooszczędnym stanie.",
+    "contactInfo": {
+      "title": "Dane Kontaktowe",
+      "name": "Paweł Olszewski",
+      "phone": "+44 7764 380450",
+      "email": "poheating@outlook.com"
+    }
+  },
+  "Faq": {
+    "sectionHeading": {
+      "title": "Najczęstsze Pytania",
+      "subtitle": "Odpowiedzi na Twoje Pytania"
+    },
+    "description": "Masz pytania dotyczące bojlera, grzejnika lub kuchenki gazowej? Nasz ekspert, certyfikowany inżynier Gas Safe w Weston-super-Mare, zapewnia jasne odpowiedzi i praktyczne wskazówki, aby Twój dom był bezpieczny, ciepły i wydajny."
+  },
+  "CallMeWidget": {
+    "ariaLabel": "Zadzwoń do mnie",
+    "tooltip": "zadzwoń"
+  },
+  "FAQs": {
+    "items": {
+      "item1": {
+        "question": "Jak często powinienem serwisować bojler?",
+        "answer": "Roczny serwis bojlera jest zalecany w celu utrzymania wydajności, zapobiegania awariom i zapewnienia ważności gwarancji. Świadczymy certyfikowany serwis bojlerów."
+      },
+      "item2": {
+        "question": "Czy naprawiacie przeciekające grzejniki?",
+        "answer": "Tak! Naprawiamy wszystkie typy przecieków grzejników, wymieniamy wadliwe zawory i równoważymy system, aby zapewnić równomierne ogrzewanie w całym domu."
+      },
+      "item3": {
+        "question": "Czy instalujecie inteligentne sterowniki grzewcze?",
+        "answer": "Oczywiście. Możemy zainstalować i skonfigurować inteligentne termostaty Hive, Nest lub Tado, pozwalając na zdalne sterowanie ogrzewaniem i oszczędzanie na rachunkach za energię."
+      },
+      "item4": {
+        "question": "Czy instalujecie nowe kuchenki lub płyty gazowe?",
+        "answer": "Tak. Bezpiecznie instalujemy, testujemy i certyfikujemy wszystkie nowe kuchenki i płyty gazowe w Weston-super-Mare i okolicznych obszarach."
+      },
+      "item5": {
+        "question": "Czy świadczycie awaryjne naprawy bojlerów?",
+        "answer": "Tak. Szybko reagujemy na awarie bojlerów, przecieki i kody błędów, aby przywrócić system grzewczy do działania szybko i bezpiecznie."
+      },
+      "item6": {
+        "question": "Jakie obszary obsługujecie?",
+        "answer": "Obsługujemy Weston-super-Mare, Bristol, Bridgwater, North Somerset i pobliskie miasta, zapewniając niezawodne usługi bojlerów, grzejników i urządzeń gazowych."
+      }
+    }
+  },
+  "Footer": {
+    "logoAriaLabel": "strona główna",
+    "logoAlt": "P O heating services",
+    "links": {
+      "about": "O nas",
+      "services": "Usługi",
+      "contact": "Kontakt",
+      "boilerServices": "Usługi Gazowych Bojlerów",
+      "radiatorInstallations": "Instalacje i Naprawy Grzejników",
+      "gasApplianceInstallation": "Instalacja Urządzeń Gazowych",
+      "heatingUpgrades": "Modernizacje Grzewcze i Inteligentne Sterowanie",
+      "privacyPolicy": "Polityka Prywatności",
+      "cookiesPolicy": "Polityka Cookies"
+    },
+    "social": {
+      "facebookAriaLabel": "Facebook",
+      "instagramAriaLabel": "Instagram"
+    },
+    "copyright": "© {year} P O heating, Wszelkie prawa zastrzeżone"
+  },
+  "Navbar": {
+    "logoAlt": "Usługi Gazowe i Grzewcze w Weston-super-Mare",
+    "links": {
+      "contact": "Kontakt",
+      "about": "O nas"
+    },
+    "services": {
+      "title": "Usługi",
+      "boilerServices": "Serwis i instalacje bojlerów",
+      "radiatorInstallations": "Instalacje i Naprawy Grzejników",
+      "gasAppliances": "Instalacja Urządzeń Gazowych",
+      "heatingUpgrades": "Modernizacje Grzewcze i Inteligentne Sterowanie"
+    },
+    "callMe": "Zadzwoń"
+  },
+  "LanguageSwitcher": {
+    "currentLocale": "Aktualny język:",
+    "languageNames": {
+      "en": "Angielski",
+      "pl": "Polski"
+    }
+  },
+  "BoilerServices": {
+    "metadata": {
+      "title": "Serwis i Naprawa Bojlerów w Weston-super-Mare, Bristolu i Bridgwater | PO Heating",
+      "description": "Ekspert w serwisie, naprawach i instalacjach bojlerów w Weston-super-Mare, Bristolu i Bridgwater. Utrzymaj swój dom ciepły i wydajny z certyfikowanym inżynierem Gas Safe Paweł Olszewski.",
+      "keywords": {
+        "boilerService": "serwis bojlerów Weston-super-Mare, Bristol i Bridgwater",
+        "boilerRepair": "naprawa bojlera Weston-super-Mare",
+        "newBoilerInstallation": "instalacja nowego bojlera",
+        "gasBoilerMaintenance": "konserwacja gazowego bojlera",
+        "boilerEngineer": "inżynier bojlerów Bristol",
+        "emergencyBoilerRepair": "awaryjna naprawa bojlera"
+      },
+      "openGraph": {
+        "title": "Usługi Bojlerów w Weston-super-Mare, Bristolu i Bridgwater | P O Heating",
+        "description": "Certyfikowane naprawy, instalacje i konserwacja bojlerów w Weston-super-Mare, Bristolu, Bridgwater i North Somerset. Zadzwoń teraz po szybką, niezawodną usługę.",
+        "siteName": "P O Heating",
+        "imageAlt": "Naprawa Bojlerów Weston-super-Mare, Bristol i Bridgwater"
+      }
+    },
+    "Hero": {
+      "heading": "Serwis i instalacje bojlerów",
+      "title": {
+        "part1": "Niezawodne",
+        "span": "Naprawy, Instalacje i Usługi Bojlerów",
+        "part2": "w Weston-super-Mare i pobliskich miastach."
+      },
+      "imageAlt": "Naprawy i Instalacje Bojlerów w Weston-super-Mare."
+    },
+    "BoilerProblems": {
+      "heading": "Szybko Naprawiamy",
+      "subheading": "Typowe Problemy z Bojlerami",
+      "points": {
+        "lowPressure": {
+          "title": "Niskie ciśnienie lub brak ciepła",
+          "desc": "System nie grzeje prawidłowo lub manometr wskazuje na czerwono"
+        },
+        "strangeNoises": {
+          "title": "Dziwne dźwięki",
+          "desc": "Stukanie, gwizdy lub bulgotanie dochodzące z bojlera"
+        },
+        "leaks": {
+          "title": "Wycieki wody",
+          "desc": "Wyciek wody z rur, zaworów lub jednostki bojlera"
+        }
+      },
+      "sectionPar": "Diagnozujemy i naprawiamy wszystkie typy bojlerów — szybko i profesjonalnie",
+      "cta": "Zamów Naprawę Awaryjną"
+    },
+    "ServicingInstallation": {
+      "heading": "Serwis i Instalacja",
+      "subheading": "Od Rocznego Serwisu do Pełnych Instalacji — Zajmujemy Się Wszystkim",
+      "blocks": {
+        "regularServicing": {
+          "title": "Regularny Serwis Bojlera",
+          "points": {
+            "safety": {
+              "title": "Bezpieczeństwo Domu",
+              "desc": "Dokładny przegląd zapobiega awariom i wyciekom tlenku węgla, chroniąc Twoją rodzinę."
+            },
+            "insurance": {
+              "title": "Wymóg Ubezpieczenia",
+              "desc": "Wiele polis ubezpieczeniowych wymaga udokumentowanego corocznego serwisu, aby zachować pełną ochronę."
+            },
+            "efficiency": {
+              "title": "Lepsza Wydajność",
+              "desc": "Regularne przeglądy zmniejszają zużycie energii i pomagają utrzymać rachunki na niskim poziomie."
+            }
+          }
+        },
+        "newInstallations": {
+          "title": "Instalacje Nowych Bojlerów",
+          "points": {
+            "advice": {
+              "title": "Profesjonalna Porada",
+              "desc": "Bezpłatna konsultacja pomagająca wybrać odpowiedni bojler dla Twojego domu i budżetu."
+            },
+            "installation": {
+              "title": "Profesjonalna Instalacja",
+              "desc": "Pełna usługa instalacji obejmująca usunięcie starego bojlera i modernizację systemu."
+            },
+            "certified": {
+              "title": "Certyfikacja Gas Safe",
+              "desc": "Wszystkie prace wykonane zgodnie z najwyższymi standardami bezpieczeństwa — z dołączoną certyfikacją."
+            }
+          }
+        }
+      },
+      "certificate": "Zarejestrowany Inżynier Gas Safe"
+    },
+    "SmartControls": {
+      "heading": "Inteligentne Sterowniki Bojlerów",
+      "subheading": "Inteligentne Ogrzewanie, Większy Komfort",
+      "sectionPar": "Zmodernizuj wydajność swojego domu dzięki inteligentnym sterownikom bojlerów, które pozwalają z łatwością zarządzać ciepłą wodą i ogrzewaniem. Instalujemy i konfigurujemy nowoczesne termostaty i inteligentne systemy sterowania kompatybilne z większością popularnych marek bojlerów.",
+      "points": {
+        "remote": {
+          "title": "Reguluj temperaturę bojlera",
+          "desc": "zdalnie za pomocą smartfona lub tabletu"
+        },
+        "energy": {
+          "title": "Zmniejsz zużycie energii",
+          "desc": "i obniż rachunki"
+        },
+        "consistency": {
+          "title": "Utrzymuj stałą temperaturę wody",
+          "desc": "i komfort grzewczy przez cały rok"
+        },
+        "integration": {
+          "title": "Integracja z",
+          "desc": "istniejącymi systemami automatyki domowej"
+        }
+      },
+      "cta": "Zamontuj Inteligentny Sterownik"
+    }
+  },
+  "About-Page": {
+    "metadata": {
+      "title": "O PO Heating | Lokalny Inżynier Gazowy i Grzewczy w Weston-super-Mare, Bristolu i Bridgwater",
+      "description": "Dowiedz się więcej o P O Heating, założonym przez certyfikowanego inżyniera Gas Safe Pawła Olszewskiego. Świadczymy zaufane usługi grzewcze i gazowe w Weston-super-Mare, Bristolu, Bridgwater i North Somerset.",
+      "keywords": {
+        "about": "o PO Heating",
+        "gasSafeEngineer": "inżynier gas safe Weston-super-Mare, Bristol i Bridgwater",
+        "localHeatingExpert": "lokalny ekspert grzewczy",
+        "pawelOlszewski": "Paweł Olszewski inżynier gazowy",
+        "boilerSpecialist": "specjalista od bojlerów Bristol",
+        "heatingCompany": "firma grzewcza Weston-super-Mare"
+      },
+      "openGraph": {
+        "title": "O PO Heating | Niezawodny Inżynier Gas Safe",
+        "description": "PO Heating oferuje profesjonalne usługi grzewcze i gazowe z osobistym podejściem. Poznaj naszą historię, wartości i zaangażowanie w bezpieczne, wydajne ogrzewanie.",
+        "siteName": "PO Heating",
+        "imageAlt": "PO Heating - Strona O Nas"
+      }
+    },
+    "AboutPage": {
+      "section1": {
+        "heading": "o nas",
+        "title": {
+          "part1": "Zaufane",
+          "span": "Usługi Gazowe i Grzewcze",
+          "part2": "w Weston-super-Mare i Okolicznych Obszarach."
+        },
+        "imageAlt": "Usługi Gazowe i Grzewcze w Weston-super-Mare i pobliskich miastach.",
+        "heroPoints": {
+          "safety": {
+            "title": "Bezpieczeństwo Przede Wszystkim",
+            "desc": "Zawsze certyfikowany Gas Safe i zgodny z brytyjskimi standardami."
+          },
+          "efficiency": {
+            "title": "Wydajność i Komfort",
+            "desc": "Inteligentne rozwiązania oszczędzające energię i poprawiające wydajność."
+          },
+          "honesty": {
+            "title": "Uczciwość i Przejrzystość",
+            "desc": "Jasna komunikacja, brak ukrytych kosztów."
+          }
+        }
+      },
+      "section2": {
+        "heading": "nasza historia",
+        "subheading": "Lokalny Inżynier Grzewczy, Któremu Możesz Zaufać",
+        "imageAlt": "Lokalny Inżynier Grzewczy w Weston-super-Mare.",
+        "paragraph1": {
+          "part1": "Nazywam się Paweł Olszewski i jestem założycielem PO Heating. Jestem certyfikowanym inżynierem Gas Safe w Weston-super-Mare.",
+          "span": "lata praktycznego doświadczenia w naprawach bojlerów, instalacjach grzewczych i systemach inteligentnego sterowania",
+          "part2": ", zbudowałem PO Heating na trzech prostych wartościach — bezpieczeństwo, niezawodność i uczciwa obsługa."
+        },
+        "paragraph2": {
+          "part1": "Każdy dom zasługuje na wydajne, przystępne cenowo ogrzewanie — i właśnie to",
+          "span": " dostarczamy w Weston-super-Mare, Bristolu, Bridgwater i North Somerset",
+          "part2": ". Niezależnie od tego, czy to mały przeciek, czy pełna modernizacja systemu, możesz oczekiwać precyzyjnego wykonania i osobistej troski przy każdej pracy."
+        },
+        "cta": {
+          "title": "Gotowy, aby Zamówić Usługę Grzewczą?",
+          "description": "Utrzymuj swój dom bezpieczny, ciepły i energooszczędny dzięki zaufanym usługom grzewczym i gazowym od PO Heating. Niezależnie od tego, czy potrzebujesz szybkiej naprawy bojlera, corocznego serwisu czy pełnej modernizacji ogrzewania, jesteśmy tutaj, aby pomóc — zawsze certyfikowani, profesjonalni i lokalni.",
+          "button": "Zadzwoń"
+        }
+      },
+      "section3": {
+        "heading": "dlaczego my",
+        "subheading": "Jakościowa Opieka Grzewcza dla Każdego Domu w Weston-super-Mare",
+        "paragraph": "Wybór właściwego inżyniera grzewczego ma znaczenie — a w PO Heating jesteśmy dumni z długoterminowych relacji z klientami. Nie jesteśmy dużą korporacją — jesteśmy Twoim lokalnym ekspertem, zawsze dostępnym pod telefonem, gdy Twój dom potrzebuje profesjonalnej uwagi.",
+        "points": {
+          "friendlyService": "Przyjazna, osobista obsługa od wykwalifikowanego inżyniera",
+          "transparentPricing": "Przejrzyste ceny bez ukrytych dopłat",
+          "fastResponse": "Szybka reakcja w Weston-super-Mare i pobliskich miastach",
+          "guaranteedWorkmanship": "Gwarancja wykonania i uczciwe porady"
+        }
+      }
+    }
+  },
+  "Radiators": {
+    "metadata": {
+      "title": "Instalacja i Naprawa Grzejników w Weston-super-Mare, Bristolu i Bridgwater | P O Heating",
+      "description": "Profesjonalne usługi instalacji, wymiany i naprawy grzejników w Weston-super-Mare, Bristolu i Bridgwater. Naprawiamy przecieki, zimne miejsca i hałaśliwe grzejniki z ekspertami P O Heating.",
+      "keywords": {
+        "radiatorInstallation": "instalacja grzejników Weston-super-Mare",
+        "radiatorRepair": "naprawa grzejników Weston-super-Mare",
+        "radiatorInstallationBristol": "instalacja grzejników Bristol",
+        "radiatorRepairBristol": "naprawa grzejników Bristol",
+        "radiatorInstallationBridgwater": "instalacja grzejników Bridgwater",
+        "radiatorRepairBridgwater": "naprawa grzejników Bridgwater",
+        "leakingRadiator": "przeciekający grzejnik",
+        "coldSpots": "zimne miejsca",
+        "noisyRadiators": "hałaśliwe grzejniki",
+        "heatingEngineer": "inżynier grzewczy Weston-super-Mare"
+      },
+      "openGraph": {
+        "title": "Instalacja i Naprawa Grzejników w Weston-super-Mare, Bristolu i Bridgwater | P O Heating",
+        "description": "Certyfikowane usługi instalacji i naprawy grzejników w Weston-super-Mare, Bristolu, Bridgwater i North Somerset. Zaufani lokalni inżynierowie grzewczy zapewniający ciepłe, wydajne domy.",
+        "siteName": "P O Heating",
+        "imageAlt": "Instalacja i naprawa grzejników Weston-super-Mare, Bristol i Bridgwater"
+      }
+    },
+    "Hero": {
+      "heading": "instalacje i naprawy grzejników",
+      "title": {
+        "span": "Instalacja i Naprawa Grzejników",
+        "part2": "w Weston-super-Mare, Bristolu i Bridgwater"
+      },
+      "imageAlt": "Naprawy Grzejników i Stylowe Ogrzewanie w Weston-super-Mare."
+    },
+    "About": {
+      "heading": "co robimy",
+      "subheading": "Profesjonalne Usługi Grzejnikowe",
+      "imageAlt": "Instalacje i Naprawy Grzejników",
+      "paragraph1": {
+        "part1": "Specjalizujemy się w",
+        "span": "instalacji, wymianie i naprawie grzejników",
+        "part2": "— pomagając właścicielom domów w Weston-super-Mare, Bristolu i Bridgwater utrzymać systemy grzewcze w sprawności."
+      },
+      "paragraph2": {
+        "part1": "Niezależnie od tego, czy to",
+        "span": "przeciekający zawór, nierównomierne ogrzewanie, czy pełna wymiana, zapewniamy, że po naszej naprawie każdy grzejnik jest bezpiecznie zainstalowany i działa najlepiej",
+        "part2": "."
+      },
+      "paragraph3": "Oferujemy również doradztwo w zakresie nowoczesnych, energooszczędnych rozwiązań grzejnikowych, które uzupełniają design Twojego domu i poprawiają ogólny komfort."
+    },
+    "Problems": {
+      "heading": "Szybko Naprawiamy",
+      "subheading": "Typowe Problemy z Grzejnikami, Które Naprawiamy",
+      "sectionPar": "Właściciele domów w Weston-super-Mare, Bristolu i Bridgwater często napotykają podobne problemy z grzejnikami — a nasi eksperci mają rozwiązania dla wszystkich z nich:",
+      "points": {
+        "leaks": {
+          "title": "Przeciekające zawory lub połączenia",
+          "desc": "Szybko znajdujemy i naprawiamy przecieki, aby zapobiec uszkodzeniom wodnym i nieefektywności"
+        },
+        "coldSpots": {
+          "title": "Zimne miejsca lub nierównomierne ogrzewanie",
+          "desc": "Odpowietrzamy i równoważymy system, aby zapewnić równomierne ciepło"
+        },
+        "noisy": {
+          "title": "Hałaśliwe lub bulgoczące grzejniki",
+          "desc": "Usuwamy uwięzione powietrze i przywracamy cichą, wydajną pracę"
+        },
+        "lowHeat": {
+          "title": "Niska wydajność grzewcza",
+          "desc": "Diagnozujemy i usuwamy blokady lub problemy z zaworami dla pełnej wydajności"
+        }
+      },
+      "cta": "Zamów Naprawę Awaryjną"
+    },
+    "OurProcess": {
+      "heading": "Nasz Proces",
+      "subheading": "Prosty, Bezstresowy Proces — od Wyceny do Komfortu",
+      "sectionPar": "Nasza usługa jest zaprojektowana tak, aby była szybka, przejrzysta i bezproblemowa. Niezależnie od tego, czy jesteś w Weston-super-Mare, Bristolu czy Bridgwater, zapewniamy, że każda praca przebiega sprawnie od początku do końca.",
+      "points": {
+        "assessment": {
+          "title": "Wstępna Ocena",
+          "desc": "Odwiedzamy Twoją nieruchomość, oceniamy system grzewczy i przedstawiamy jasną wycenę."
+        },
+        "repair": {
+          "title": "Naprawa lub Usunięcie",
+          "desc": "Bezpiecznie przeprowadzamy naprawy lub usuwamy stary grzejnik."
+        },
+        "installation": {
+          "title": "Instalacja i Równoważenie",
+          "desc": "Instalujemy lub wymieniamy grzejnik i równoważymy system grzewczy."
+        },
+        "testing": {
+          "title": "Test Jakości",
+          "desc": "Każdy system jest testowany pod kątem przecieków, ciśnienia i spójności ciepła przed ukończeniem."
+        }
+      }
+    }
+  },
+  "GasAppliances": {
+    "metadata": {
+      "title": "Instalacje Urządzeń Gazowych w Weston-super-Mare, Bristolu i Bridgwater | P O Heating",
+      "description": "Profesjonalne instalacje kuchenek gazowych, płyt gazowych i bojlerów w Weston-super-Mare, Bristolu i Bridgwater. Bezpieczne, zgodne z przepisami i wydajne podłączenia gazowe przez ekspertów P O Heating.",
+      "keywords": {
+        "gasAppliancesInstallations": "instalacje urządzeń gazowych Weston-super-Mare",
+        "gasBoilerInstallation": "instalacja bojlera gazowego Weston-super-Mare",
+        "gasHobInstallation": "instalacja płyty gazowej Weston-super-Mare",
+        "gasCookerInstallationBristol": "instalacja kuchenki gazowej Bristol",
+        "gasBoilerInstallationBristol": "instalacja bojlera gazowego Bristol",
+        "gasCookerInstallationBridgwater": "instalacja kuchenki gazowej Bridgwater",
+        "gasHobInstallationBridgwater": "instalacja płyty gazowej Bridgwater",
+        "gasSafeEngineer": "inżynier Gas Safe Weston-super-Mare",
+        "gasApplianceFitting": "podłączanie urządzeń gazowych Somerset"
+      },
+      "openGraph": {
+        "title": "Instalacje Urządzeń Gazowych w Weston-super-Mare, Bristolu i Bridgwater | P O Heating",
+        "description": "Certyfikowane instalacje kuchenek gazowych, płyt gazowych i bojlerów w Weston-super-Mare, Bristolu, Bridgwater i North Somerset. Zaufani lokalni inżynierowie grzewczy zapewniający bezpieczeństwo i wydajność.",
+        "siteName": "P O Heating",
+        "imageAlt": "Instalacje urządzeń gazowych Weston-super-Mare, Bristol i Bridgwater"
+      }
+    },
+    "Hero": {
+      "heading": "instalacje urządzeń gazowych",
+      "title": {
+        "span": "Instalacje Urządzeń Gazowych",
+        "part2": "w Weston-super-Mare, Bristolu i Bridgwater"
+      },
+      "imageAlt": "Instalacje Urządzeń Gazowych w Weston-super-Mare i pobliskich miastach."
+    },
+    "About": {
+      "heading": "O Usłudze",
+      "subheading": "Kuchenki i płyty gazowe instalowane z precyzją i dbałością",
+      "imageAlt": "Instalacje i Naprawy Grzejników",
+      "paragraph": {
+        "part1": "Zapewniamy kompleksowe",
+        "span1": "usługi instalacji nowych kuchenek i płyt gazowych",
+        "part2": "dla właścicieli domów i wynajmujących w Weston-super-Mare, Bristolu i Bridgwater.",
+        "span2": "Od podłączania nowych kuchenek po wymianę istniejących płyt",
+        "part3": ", każde zadanie jest realizowane z precyzją, dbałością i uwagą na bezpieczeństwo."
+      },
+      "points": {
+        "safeConnection": "Bezpieczne podłączenie do istniejącej instalacji gazowej",
+        "removal": "Usunięcie starych urządzeń (jeśli wymagane)",
+        "testing": "Testowanie pod kątem przecieków i wydajności",
+        "neatFinish": "Schludne, czyste wykończenie — gotowe do natychmiastowego użytku"
+      }
+    },
+    "Boliers": {
+      "heading": "instalacje bojlerów",
+      "subheading": "Bojlery Instalowane Bezpiecznie, Wydajnie i Bezproblemowo",
+      "imageAlt": "Instalacje i Naprawy Bojlerów",
+      "comprehensiveTitle": "Kompleksowe Usługi Instalacji Bojlerów",
+      "comprehensiveDescription": "Oferujemy również profesjonalne usługi instalacji bojlerów dla domów i firm. Niezależnie od tego, czy potrzebujesz nowego bojlera gazowego dla swojej nieruchomości, czy modernizacji do bardziej energooszczędnego systemu, każdą instalację wykonujemy z precyzją i dbałością.",
+      "safeTitle": "Bezpieczne, Zgodne i Niezawodne",
+      "safeDescription": "Wszystkie instalacje są przeprowadzane w pełnej zgodności z przepisami Gas Safe, zapewniając bezpieczną i wydajną pracę Twojego bojlera. Starannie sprawdzamy wszystkie rury, połączenia i ustawienia przed ukończeniem pracy, dając Ci spokój ducha i niezawodne ogrzewanie przez cały rok."
+    },
+    "Safety": {
+      "heading": "Bezpieczeństwo i Doświadczenie",
+      "subheading": "Twoje bezpieczeństwo i satysfakcja są najważniejsze",
+      "sectionPar": "Wiemy, jak ważne jest bezpieczne i prawidłowe wykonanie prac gazowych. Dlatego zawsze poświęcamy czas na sprawdzenie wszystkich połączeń, fittingów i linii gazowych przed ukończeniem instalacji. Z wieloletnim doświadczeniem w obsłudze Weston-super-Mare, Bristolu i Bridgwater, możesz nam zaufać, że wykonamy pracę dobrze — za pierwszym razem.",
+      "points": {
+        "inspection": "Staranna kontrola istniejącej linii gazowej",
+        "compliant": "W pełni zgodne z obecnymi przepisami bezpieczeństwa",
+        "service": "Przyjazna, schludna i profesjonalna obsługa"
+      },
+      "cta": "Zamów instalację urządzenia gazowego"
+    },
+    "Steps": {
+      "heading": "Nasz Proces",
+      "subheading": "Jak działa nasz proces instalacji",
+      "sectionPar": "Sprawiamy, że instalacja kuchenki lub płyty gazowej jest prosta i bezstresowa. Oto jak to działa:",
+      "points": {
+        "initialCheck": {
+          "title": "Wstępna Kontrola",
+          "desc": "Oceniamy konfigurację Twojej kuchni i zasilanie gazowe, aby upewnić się, że jest gotowe na nowe urządzenie."
+        },
+        "safeDisconnection": {
+          "title": "Bezpieczne Odłączenie",
+          "desc": "W razie potrzeby bezpiecznie i czysto odłączamy starą kuchenkę lub płytę gazową."
+        },
+        "preciseInstallation": {
+          "title": "Precyzyjna Instalacja",
+          "desc": "Bezpiecznie podłączamy nowe urządzenie, testujemy pod kątem przecieków i sprawdzamy działanie."
+        },
+        "finalTesting": {
+          "title": "Końcowe Testowanie",
+          "desc": "Gdy wszystko działa idealnie, pokazujemy, jak bezpiecznie używać nowej kuchenki."
+        }
+      }
+    }
+  },
+  "HeatingUpgrades": {
+    "metadata": {
+      "title": "Modernizacja Ogrzewania i Inteligentne Sterowanie w Weston-super-Mare, Bristolu i Bridgwater | P O Heating",
+      "description": "Zmodernizuj ogrzewanie domu dzięki inteligentnym sterownikom bojlerów, filtrom magnetycznym i designerskim grzejnikom w Weston-super-Mare, Bristolu i Bridgwater. Profesjonalne instalacje przez P O Heating.",
+      "keywords": {
+        "heatingUpgrades": "modernizacja ogrzewania Weston-super-Mare",
+        "smartBoilerControls": "inteligentne sterowniki bojlerów Weston-super-Mare",
+        "magneticFilterInstallation": "instalacja filtra magnetycznego Weston-super-Mare",
+        "designerRadiators": "designerskie grzejniki Weston-super-Mare",
+        "heatingUpgradesBristol": "modernizacja ogrzewania Bristol",
+        "smartControlsBristol": "inteligentne sterowanie Bristol",
+        "heatingUpgradesBridgwater": "modernizacja ogrzewania Bridgwater",
+        "magneticFiltersBridgwater": "filtry magnetyczne Bridgwater",
+        "homeHeatingUpgrades": "modernizacja ogrzewania domowego Somerset"
+      },
+      "openGraph": {
+        "title": "Modernizacja Ogrzewania i Inteligentne Sterowanie w Weston-super-Mare, Bristolu i Bridgwater | P O Heating",
+        "description": "Profesjonalna instalacja inteligentnych sterowników bojlerów, filtrów magnetycznych i designerskich grzejników w Weston-super-Mare, Bristolu, Bridgwater i North Somerset. Wydajne, bezpieczne i nowoczesne rozwiązania grzewcze.",
+        "siteName": "P O Heating",
+        "imageAlt": "Modernizacja ogrzewania i inteligentne sterowanie Weston-super-Mare, Bristol, Bridgwater"
+      }
+    },
+    "Hero": {
+      "heading": "Modernizacja Ogrzewania i Inteligentne Sterowanie",
+      "title": {
+        "span": "Zmodernizuj Swój System Grzewczy",
+        "part2": "z Inteligentnym Sterowaniem"
+      },
+      "imageAlt": "Modernizacja Ogrzewania i Inteligentne Sterowanie w Weston-super-Mare."
+    },
+    "About": {
+      "heading": "O Usłudze",
+      "subheading": "Profesjonalna Modernizacja Ogrzewania dla Każdego Domu",
+      "imageAlt": "Instalacja designerskich grzejników",
+      "paragraph1": {
+        "part1": "Montujemy",
+        "span": "inteligentne sterowniki bojlerów, filtry magnetyczne i designerskie grzejniki",
+        "part2": ". Każdy komponent jest dobrany tak, aby współpracował bezproblemowo, dając nowoczesne, niezawodne rozwiązanie, które służy przez lata."
+      },
+      "paragraph2": {
+        "part1": "Nasze modernizacje",
+        "span": "pomagają zmniejszyć marnowanie energii, przedłużają żywotność systemu grzewczego",
+        "part2": "i zapewniają równomierne ciepło w każdym pomieszczeniu. Dbamy o to, aby Twój dom pozostał przytulny, jednocześnie obniżając rachunki za energię."
+      },
+      "paragraph3": "Obsługując domy w Weston-super-Mare, Bristolu i Bridgwater, dostosowujemy każdą instalację do unikalnego układu i wymagań Twojej nieruchomości."
+    },
+    "Benefits": {
+      "heading": "Kluczowe Korzyści",
+      "subheading": "Dlaczego Zmodernizować System Grzewczy?",
+      "points": {
+        "smartControls": {
+          "title": "Inteligentne Sterowniki Bojlerów",
+          "desc": "Przejmij kontrolę nad ogrzewaniem ze swojego telefonu, o każdej porze i w dowolnym miejscu. Dostosuj temperatury, ustaw harmonogramy i ciesz się inteligentniejszym, wygodniejszym domem."
+        },
+        "magneticFilters": {
+          "title": "Filtry Magnetyczne",
+          "desc": "Chroń swój bojler i grzejniki przed osadzaniem się szlamu, utrzymując system w wydajnej pracy i zapobiegając kosztownym naprawom."
+        },
+        "designerRadiators": {
+          "title": "Designerskie Grzejniki",
+          "desc": "Połącz styl i wydajność z nowoczesnymi grzejnikami, które nie tylko równomiernie ogrzewają dom, ale także świetnie wyglądają w każdym pomieszczeniu."
+        }
+      },
+      "cta": "Zmodernizuj swój system grzewczy"
+    },
+    "Points": {
+      "heading": "Oszczędność Energii i Komfort",
+      "subheading": "Więcej Komfortu, Mniej Marnowania Energii",
+      "imageAlt": "Oszczędność energii i komfort z modernizacją ogrzewania",
+      "points": {
+        "control": {
+          "title": "Kontroluj Ogrzewanie w Dowolnym Momencie",
+          "desc": "Przejmij pełną kontrolę nad temperaturą w domu za pomocą telefonu. Inteligentne planowanie i zdalny dostęp oznaczają, że ogrzewasz pomieszczenia tylko wtedy, gdy jest to potrzebne, oszczędzając energię i pieniądze."
+        },
+        "heatDistribution": {
+          "title": "Równomierny Rozkład Ciepła",
+          "desc": "Designerskie grzejniki i filtry magnetyczne zapewniają ciepłe, równomierne pomieszczenia, chroniąc jednocześnie bojler przed osadzaniem się szlamu i nieefektywnością."
+        },
+        "energySave": {
+          "title": "Oszczędzaj Energię i Zostań Przytulnie",
+          "desc": "Zoptymalizowane ogrzewanie zmniejsza straty, obniża rachunki za energię i utrzymuje każdy zakątek Twojego domu idealnie komfortowym przez cały rok."
+        }
+      }
+    }
+  },
+  "CookiesPolicy": {
+    "title": "Polityka Plików Cookies",
+    "block1": "Ta strona internetowa używa tylko niezbędnych plików cookies, które są wymagane do jej podstawowego działania, takich jak utrzymanie bezpieczeństwa i zapewnienie poprawnego ładowania strony.",
+    "block2": {
+      "title": "Nie używamy:",
+      "list": {
+        "analytics": "Plików cookies analitycznych",
+        "advertising": "Plików cookies reklamowych lub śledzących",
+        "thirdParty": "Plików cookies stron trzecich",
+        "profiling": "Plików cookies do profilowania lub marketingu"
+      }
+    },
+    "block3": "Ponieważ używane są tylko niezbędne pliki cookies, nie wymagamy banera cookies ani wyskakujących okienek zgody zgodnie z wytycznymi UK GDPR i PECR.",
+    "block4": "Możesz dostosować lub wyłączyć pliki cookies w ustawieniach przeglądarki w dowolnym momencie, ale może to wpłynąć na funkcjonalność strony internetowej.",
+    "block5": "Jeśli masz jakiekolwiek pytania dotyczące używania przez nas plików cookies, skontaktuj się z nami."
+  },
+  "PrivacyPolicy": {
+    "title": "Polityka Prywatności",
+    "block1": "Traktujemy Twoją prywatność poważnie. Ta strona internetowa nie zbiera żadnych danych osobowych, chyba że zdecydujesz się skontaktować z nami bezpośrednio. Nie używamy formularzy kontaktowych, narzędzi analitycznych, skryptów śledzących, pikseli reklamowych ani żadnych usług zbierania danych stron trzecich.",
+    "block2": {
+      "title": "Administrator Danych Osobowych",
+      "description": "Administratorem wszelkich dostarczonych przez Ciebie danych osobowych jest PO Heating, z siedzibą w Weston-super-Mare, Wielka Brytania. Z administratorem można skontaktować się za pomocą poniższych danych."
+    },
+    "block3": {
+      "title": "Informacje, Które Możemy Zbierać",
+      "description": "Jedynymi danymi osobowymi, które możemy otrzymać, są dane, które dobrowolnie przekazujesz przez telefon, e-mail lub bezpośrednie wiadomości. Mogą one obejmować:",
+      "list": {
+        "name": "Twoje imię i nazwisko",
+        "contact": "Twój adres e-mail lub numer telefonu",
+        "enquiry": "Informacje związane z Twoim bojlerem, systemem grzewczym lub zapytaniem o usługę"
+      }
+    },
+    "block4": {
+      "title": "Jak Wykorzystujemy Twoje Informacje",
+      "description1": "Twoje dane są wykorzystywane wyłącznie do:",
+      "list": {
+        "response": "Odpowiedzi na Twoje zapytanie",
+        "quotes": "Przedstawienia wycen lub szczegółów usługi",
+        "appointments": "Umówienia wizyt lub instalacji"
+      },
+      "description2": "Nie sprzedajemy, nie udostępniamy ani nie przekazujemy Twoich informacji stronom trzecim, z wyjątkiem sytuacji wymaganych prawnie (np. dokumentacja Gas Safe, gdy ma to zastosowanie). Przetwarzamy Twoje dane w oparciu o Twoją zgodę i w uzasadnionym celu świadczenia usług grzewczych i gazowych."
+    },
+    "block5": {
+      "title": "Przechowywanie Danych",
+      "description": "Przechowujemy Twoje informacje tylko tak długo, jak jest to konieczne do odpowiedzi na Twoje zapytanie lub świadczenia żądanej usługi. Gdy przestaną być potrzebne, są bezpiecznie usuwane."
+    },
+    "block6": {
+      "title": "Twoje Prawa",
+      "description": "Zgodnie z UK GDPR masz prawo do:",
+      "list": {
+        "access": "Żądania dostępu do wszelkich danych osobowych, które posiadamy na Twój temat",
+        "correction": "Poproszenia o sprostowanie nieprawidłowych informacji",
+        "deletion": "Żądania usunięcia Twoich danych",
+        "withdraw": "Wycofania zgody w dowolnym momencie",
+        "complaint": "Złożenia skargi do Urzędu Komisarza Informacji (ICO), jeśli uważasz, że Twoje dane są niewłaściwie wykorzystywane"
+      }
+    },
+    "block7": {
+      "title": "Kontakt",
+      "description": "Jeśli masz jakiekolwiek pytania dotyczące tej Polityki Prywatności lub sposobu, w jaki przetwarzamy Twoje dane, skontaktuj się z nami bezpośrednio.",
+      "company": "PO Heating",
+      "email": "Email: poheating@outlook.com",
+      "phone": "Telefon: +44 7764 380450"
+    }
+  },
+   "Cookies-Metadata": {
+    "title": "Polityka Cookies | PO Heating",
+    "description": "Ta strona używa wyłącznie niezbędnych cookies wymaganych do prawidłowego działania witryny. Nie stosujemy cookies analitycznych ani marketingowych.",
+    "keywords": {
+      "cookiesPolicy": "polityka cookies",
+      "essentialCookies": "niezbędne cookies",
+      "websiteCookies": "cookies strony internetowej"
+    },
+    "openGraph": {
+      "title": "Polityka Cookies | PO Heating",
+      "description": "Informacje o stosowaniu cookies na stronie PO Heating. Wyłącznie niezbędne cookies dla prawidłowego działania witryny.",
+      "siteName": "P O Heating",
+      "imageAlt": "Cookies Policy PO Heating"
+    }
+  },
+  "Privacy-Metadata": {
+    "title": "Polityka Prywatności | PO Heating",
+    "description": "PO Heating nie zbiera danych osobowych bez Twojej zgody. Dane podane w kontaktach służą wyłącznie do obsługi zapytań i usług.",
+    "keywords": {
+      "privacyPolicy": "polityka prywatności",
+      "personalData": "dane osobowe",
+      "gdpr": "RODO"
+    },
+    "openGraph": {
+      "title": "Polityka Prywatności | PO Heating",
+      "description": "Zasady ochrony danych osobowych na stronie PO Heating. Dowiedz się, jak przetwarzamy Twoje dane i jakie prawa Ci przysługują.",
+      "siteName": "P O Heating",
+      "imageAlt": "Privacy Policy PO Heating"
+    }
+  }
+}

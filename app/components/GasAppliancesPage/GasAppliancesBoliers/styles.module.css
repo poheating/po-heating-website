@@ -1,0 +1,134 @@
+.page {
+    padding-block: 80px;
+}
+
+.content {
+    max-width: 1300px;
+    padding: 15px;
+    display: block;
+    margin-inline: auto;
+}
+
+.sectionHeading h2 {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #ff3300;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sectionHeading h3 {
+    font-size: 2.7em;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: rgb(48, 48, 48);
+    text-align: center;
+}
+
+.pageHeading h2 span,
+.sectionHeading h2 span {
+    color: #ff6600;
+}
+
+.sectionPar {
+    font-size: 1.26em;
+    line-height: 1.6;
+    letter-spacing: -0.3px;
+    color: rgb(80, 80, 80);
+    margin-bottom: 27px;
+}
+
+.sectionPar span {
+    color: #2c2c2c;
+    font-weight: 600;
+}
+
+.section2Content {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.section2Content img {
+    max-height: 600px;
+    object-fit: cover;
+    max-width: 600px;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.points {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    height: 100%;
+}
+
+.content h4 {
+    font-size: 1.55em;
+    line-height: 1.6;
+    letter-spacing: -0.3px;
+
+    color: #2c2c2c;
+    font-weight: 600;
+    gap: 15px;
+
+    margin-bottom: 8px;
+}
+
+.points h4 span {
+    color: #ff3300;
+}
+
+
+@media screen and (max-width: 1166px) {
+    .section2Content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section2Content img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .content h4 {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        margin-block: 0px;
+        padding-block: 50px;
+    }
+
+    .sectionHeading h2 {
+        font-size: 1.04em;
+    }
+
+    .sectionHeading h3 {
+        font-size: 2.25em;
+    }
+
+    .content img {
+        max-height: 500px;
+    }
+
+    .sectionPar {
+        font-size: 1.14em;
+        text-align: center;
+    }
+
+    .points {
+        align-items: start;
+    }
+
+    .content h4 {
+        font-size: 1.4em;
+    }
+}

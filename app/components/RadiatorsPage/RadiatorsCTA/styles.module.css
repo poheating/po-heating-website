@@ -1,0 +1,140 @@
+.page {
+    background-color: black;
+}
+
+.content {
+    max-width: 1300px;
+    padding: 15px;
+    margin-inline: auto;
+    padding-bottom: 120px;
+}
+
+.cta {
+    border-radius: 12px;
+    padding-block: 85px;
+    background: linear-gradient(135deg, #ff5100 0%, #ff8533 100%);
+}
+
+.cta h2 {
+    font-size: 2.7em;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    max-width: 80%;
+    margin-inline: auto;
+}
+
+.cta p {
+    color: rgb(255, 238, 231);
+    text-align: center;
+    max-width: 80%;
+    margin-inline: auto;
+    font-size: 1.26em;
+    line-height: 1.6;
+    letter-spacing: -0.3px;
+    margin-bottom: 27px;
+}
+
+
+.cta a {
+    padding: 10px 28px;
+    border-radius: 8px;
+    transition: 0.06s ease-in-out;
+    font-size: 1.15em;
+    box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.12);
+    transition: 0.12s ease-in-out;
+
+    background-color: #ffffff;
+    color: rgb(43, 22, 5);
+    font-weight: 500;
+
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.301);
+    width: 400px;
+    justify-content: center;
+    margin-inline: auto;
+    margin-top: 50px;
+}
+
+.cta a:hover {
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.14);
+    background-color: #ffffff;
+    transform: translateY(-2px);
+}
+
+
+@media screen and (max-width: 768px) {
+    .pageHeading h1 {
+        font-size: 1.04em;
+    }
+
+    .pageHeading h2 {
+        font-size: 2.25em;
+    }
+
+    .sectionHeading h2 {
+        font-size: 1.04em;
+    }
+
+    .sectionHeading h3 {
+        font-size: 2.25em;
+    }
+
+    .cta {
+        margin-top: 80px;
+        padding-block: 55px;
+    }
+
+    .cta h2 {
+        font-size: 2.25em;
+    }
+
+    .cta p {
+        font-size: 1.14em;
+    }
+
+    .cta a {
+        font-size: 1.08em;
+    }
+
+    .heroPoints {
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 12px;
+    }
+
+    .content img {
+        max-height: 500px;
+    }
+
+    .point {
+        border-bottom: 4px solid #f3f3f3;
+        padding: 22px;
+    }
+
+    .point h3 {
+        font-size: 1.4em;
+    }
+
+    .point p {
+        font-size: 1.1em;
+    }
+
+    .sectionPar {
+        font-size: 1.14em;
+        text-align: center;
+    }
+
+    .donePoints {
+        margin-top: 50px;
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+    }
+}
