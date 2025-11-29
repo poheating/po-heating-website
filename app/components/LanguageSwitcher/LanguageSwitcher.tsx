@@ -2,7 +2,7 @@
 
 import { useLocale, useTranslations } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
-import { LOCALES as locales} from '@/i18n';
+import { LOCALES as locales } from '@/i18n';
 import { useState, useRef, useEffect } from 'react';
 import styles from './styles.module.css';
 
@@ -14,11 +14,13 @@ const LanguageSwitcher = () => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
-  const handleLocaleChange = (newLocale: string) => {
-    // document.cookie = `NEXT_LOCALE=${newLocale}; path=/`;
-    const newPath = pathname.replace(`/${currentLocale}`, `/${newLocale}`);
-    router.push(newPath);
-    setIsOpen(false);
+  const handleLocaleChangeAlternative = (newLocale: string) => {
+    document.cookie = `NEXT_LOCALE=${newLocale}; path=/; max-age=31536000; SameSite=Lax`;
+    
+    const pathnameWithoutLocale = pathname.replace(`/${currentLocale}`, '') || '/';
+    const newPath = `/${newLocale}${pathnameWithoutLocale}`;
+    
+    window.location.href = newPath;
   };
 
   const toggleDropdown = () => {
@@ -64,7 +66,7 @@ const LanguageSwitcher = () => {
           {locales.map((locale) => (
             <button
               key={locale}
-              onClick={() => handleLocaleChange(locale)}
+              onClick={() => handleLocaleChangeAlternative(locale)}
               className={`${styles.dropdownButton} ${
                 currentLocale === locale ? styles.dropdownButtonActive : styles.dropdownButtonInactive
               }`}

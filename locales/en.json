@@ -167,7 +167,7 @@
   },
   "Footer": {
     "logoAriaLabel": "go home",
-    "logoAlt": "P O heating services",
+    "logoAlt": "PO heating services",
     "links": {
       "about": "About",
       "services": "Services",
@@ -183,7 +183,7 @@
       "facebookAriaLabel": "Facebook",
       "instagramAriaLabel": "Instagram"
     },
-    "copyright": "© {year} P O heating, All rights reserved"
+    "copyright": "© {year} PO heating, All rights reserved"
   },
   "Navbar": {
     "logoAlt": "Gas & Heating services in Weston-super-Mare",
