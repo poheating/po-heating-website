@@ -96,6 +96,9 @@ const Navbar = () => {
                     <Link href={'/'}><Image src={'/images/logo.svg'} width={45} height={45} alt={t('logoAlt')} /></Link>
                 </div>
 
+
+                <Image className={styles.mobileGasSafeLogo} src={'/images/gas-safe-logo-transparent.png'} width={45} height={45} alt={t('gasSafeLogo')} />
+
                 {/* Desktop Links */}
                 <div className={styles.links}>
                     {
@@ -107,10 +110,10 @@ const Navbar = () => {
                                 className={styles.link} href={link.link} key={i}>{link.name}</a>
                         ))
                     }
-                    
+
                     {/* Services Dropdown - Desktop */}
-                    <div 
-                        className={styles.dropdown} 
+                    <div
+                        className={styles.dropdown}
                         ref={dropdownRef}
                         onMouseEnter={() => window.innerWidth > 968 && setIsServicesOpen(true)}
                         onMouseLeave={() => window.innerWidth > 968 && setIsServicesOpen(false)}
@@ -123,15 +126,15 @@ const Navbar = () => {
                             onClick={() => setIsServicesOpen(!isServicesOpen)}
                         >
                             {t('services.title')}
-                            <ChevronDown 
-                                size={18} 
+                            <ChevronDown
+                                size={18}
                                 style={{
                                     transform: isServicesOpen ? 'rotate(180deg)' : 'rotate(0deg)',
                                     transition: '0.2s ease-in-out'
                                 }}
                             />
                         </button>
-                        
+
                         <AnimatePresence>
                             {isServicesOpen && (
                                 <motion.div
@@ -161,10 +164,11 @@ const Navbar = () => {
                             {t('callMe')} <span><PhoneCallIcon size={22} /></span>
                         </div>
                     </Link>
+                    <Image src={'/images/gas-safe-logo-transparent.png'} width={45} height={45} alt={t('gasSafeLogo')} />
                 </div>
 
                 {/* Mobile Menu Button */}
-                <button 
+                <button
                     className={styles.mobileMenuButton}
                     onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                     style={{
@@ -186,7 +190,7 @@ const Navbar = () => {
                         exit={{ opacity: 0, height: 0 }}
                         transition={{ duration: 0.3, ease: "easeInOut" }}
                     >
-                        <motion.div 
+                        <motion.div
                             className={styles.mobileMenuContent}
                             initial={{ y: -20, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
@@ -211,15 +215,15 @@ const Navbar = () => {
                                     onClick={() => setIsServicesOpen(!isServicesOpen)}
                                 >
                                     {t('services.title')}
-                                    <ChevronDown 
-                                        size={18} 
+                                    <ChevronDown
+                                        size={18}
                                         style={{
                                             transform: isServicesOpen ? 'rotate(180deg)' : 'rotate(0deg)',
                                             transition: '0.2s ease-in-out'
                                         }}
                                     />
                                 </button>
-                                
+
                                 <AnimatePresence>
                                     {isServicesOpen && (
                                         <motion.div
@@ -244,8 +248,8 @@ const Navbar = () => {
                                 </AnimatePresence>
                             </div>
 
-                            <Link 
-                                href={'/#contact'} 
+                            <Link
+                                href={'/#contact'}
                                 className={styles.mobileCta}
                                 onClick={handleLinkClick}
                             >

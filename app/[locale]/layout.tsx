@@ -9,6 +9,7 @@ import { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { LOCALES } from "@/i18n";
 import { getMessages, getTranslations } from "next-intl/server";
+import { Analytics } from "@vercel/analytics/next"
 
 type Props = {
   children: ReactNode;
@@ -124,6 +125,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
+      <Analytics />
       <Head>
         <link rel="preload" as="image" href="/images/poheating-hero.webp" />
       </Head>

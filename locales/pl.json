@@ -187,6 +187,7 @@
   },
   "Navbar": {
     "logoAlt": "Usługi Gazowe i Grzewcze w Weston-super-Mare",
+    "gasSafeLogo": "certyfikat inżyniera bezpieczeństwa gazowego",
     "links": {
       "contact": "Kontakt",
       "about": "O nas"

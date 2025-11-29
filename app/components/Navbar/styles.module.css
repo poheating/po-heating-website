@@ -8,6 +8,10 @@
     transition: all 0.3s ease-in-out; /* Smoother transition */
 }
 
+.mobileGasSafeLogo {
+    display: none;
+}
+
 .navContent {
     display: flex;
     flex-direction: row;
@@ -251,6 +255,10 @@
 
     .dropdown:hover .dropdownMenu {
         display: none;
+    }
+
+    .mobileGasSafeLogo {
+        display: block;
     }
 }
 
