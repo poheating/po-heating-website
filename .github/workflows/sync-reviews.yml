@@ -1,0 +1,14 @@
+name: Sync Reviews
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch: # możliwość ręcznego wywołania
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync reviews
+        run: |
+          curl -X GET "${{ secrets.SITE_URL }}/api/cron/sync-reviews" \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}"

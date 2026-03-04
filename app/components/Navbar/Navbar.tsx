@@ -8,6 +8,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useEffect, useState, useRef } from 'react';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
+import { NavLink } from '../NavLink';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false)
@@ -159,11 +160,11 @@ const Navbar = () => {
                         </AnimatePresence>
                     </div>
 
-                    <Link href={'/#contact'} className={styles.cta1}>
+                    <NavLink href={'/#contact'} className={styles.cta1}>
                         <div className={styles.btnTop}>
                             {t('callMe')} <span><PhoneCallIcon size={22} /></span>
                         </div>
-                    </Link>
+                    </NavLink>
                     <Image src={'/images/gas-safe-logo-transparent.png'} width={45} height={45} alt={t('gasSafeLogo')} />
                 </div>
 
