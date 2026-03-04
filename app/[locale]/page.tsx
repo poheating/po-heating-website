@@ -6,6 +6,7 @@ import Contact from "../components/Contact/Contact";
 import Faq from "../components/Faq/Faq";
 import TopPar from "../components/TopPar/TopServices";
 import CallMeWidget from "../components/CallMeWidget/callme-widget";
+import ReviewsSection from "../components/ReviewsSection/ReviewsSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <About />
       <Services />
       <WhyUs />
+      <ReviewsSection />
       <Contact />
       <Faq />
       <CallMeWidget />

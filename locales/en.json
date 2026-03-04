@@ -764,5 +764,14 @@
       "siteName": "P O Heating",
       "imageAlt": "Privacy Policy PO Heating"
     }
+  },
+    "Reviews": {
+    "sectionLabel": "Customer reviews",
+    "sectionTitle": "What our clients say",
+    "sourceGoogle": "Google",
+    "sourceFacebook": "Facebook",
+    "anonymous": "Anonymous",
+    "noText": "No review content.",
+    "seeReview": "See review →"
   }
 }
